@@ -1,0 +1,7 @@
+/*=== PageNavi. ===*/
+.wp-pagenavi {clear:both; font: normal 12px Arial, Helvetica, sans-serif; margin:10px auto; color:#717171; padding:32px 0 0; text-align:right;}
+.wp-pagenavi a,
+.wp-pagenavi .current { color:#fff; margin-right:4px; padding:8px 10px; text-decoration:none; background-color:#adadad; font-weight:normal;}
+.wp-pagenavi a:hover,
+.wp-pagenavi .current { background-color:#00a2ca; color:#fff;}
+.wp-pagenavi .pages { float:left;}

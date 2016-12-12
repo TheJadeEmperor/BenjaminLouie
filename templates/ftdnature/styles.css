@@ -1,0 +1,342 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+img
+{
+border: 0px;
+}
+
+body{
+	font: 12px Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	background: url(images/bg.jpg) center top repeat-x #191E1F;
+	line-height: 16px;
+}
+
+	
+#main {
+	width: 800px;
+	margin: 0px auto;
+	background:url(images/main.jpg) right top no-repeat;
+	padding: 25px 0px 0px 0px;}
+	
+.top_top { background:url(images/top_top.png) top no-repeat;
+		height: 10px;
+}
+.top_bot { background:url(images/top_bot.png) bottom no-repeat;
+		height: 10px;
+}
+
+#header { 
+	height: 445px;
+	padding: 0px 10px 0px 10px;
+	background: #FFFFFF;
+}
+
+#logo {	
+		padding: 10px 0px 0px 0px;
+		height: 45px;
+}
+
+
+#logo a {
+	text-decoration: none;
+	font-size: 14px;
+	font-weight:bold;
+	color: #000000;
+}
+	
+#logo H3 a{
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: left;
+}
+
+#buttons{
+	text-align:center;
+	height: 50px;
+	margin-left: 0px;
+	background: url(images/buttons.jpg) center top no-repeat;
+	padding-left: 0px;
+	
+}
+
+#buttons a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 100;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 18px;
+	height: 32px;
+	width: 154px;
+	background:url(images/but.png) center top no-repeat; 
+}
+
+.but {
+			 
+}
+
+#buttons .but_t {background: url(images/but_hover.png) center top no-repeat;}
+
+#buttons a:hover {
+	text-decoration: none;
+	background: url(images/but_hover.png) center top no-repeat;
+	height: 32px;
+	text-decoration: underline;}
+	
+.but_razd { width: 2px;
+	height: 50px;
+	float:left;
+	background:url(images/but_razd.gif) left top no-repeat;}	
+
+
+#content{
+	padding: 15px 0px 0px 0px;
+}
+
+.top_img {
+height: 273px;
+background:url(images/top.jpg) left top no-repeat;}
+
+.circl_all {
+		height: 47px; 
+		vertical-align:top;}
+
+.circl { background: url(images/circl.jpg) left top no-repeat;
+	height: 48px;
+	width: 45px;
+	margin: 0px 10px 0px 0px;
+	float:right; }
+.circl:hover {
+	background:url(images/circl_hov.jpg) left top no-repeat; }
+
+.box_home { 
+	float: left; 
+	padding: 0px 0px 0px 0px;
+	width: 245px;}
+	
+.box_home_bg {
+	padding: 0px 0px 0px 0px;}
+
+.float_left {float:left;}
+
+.img_l {	float:left;
+		margin: 0px 10px 5px 0px;
+}
+
+.img_r {	float: right;
+		margin: 0px 0px 0px 15px;
+}
+
+
+H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color: #ffffff;
+	text-align: left;
+	padding: 0px 0px 5px 0px;
+}
+
+H2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: left;
+	padding: 0px 0px 0px 0px;
+	line-height: 20px;
+}
+
+.read{
+	display:block;
+	float:right;
+	height: 22px;
+	width: 70px;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+	text-decoration: none;
+	font-size:12px;
+	color: #FF0000;
+	background: url(images/read.png) left top no-repeat;
+}
+
+.read:hover {
+	font-size:12px;
+	text-decoration: underline;
+}
+
+.a_und { color:#ffffff;
+		text-decoration: underline;
+		font-size: 12px;}
+		
+.a_und:hover {color:#ffffff;
+	text-decoration:none;}
+	
+#bottom {
+	background: url(images/bottom.gif) left repeat-y;
+	color:#ffffff;
+	padding: 0px 0px 0px 0px;
+}
+
+.bottom_h { background: url(images/bottom_h.jpg) center top no-repeat;
+		padding: 30px 0px 0px 0px;}
+
+#bottom h2{
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0px 0px 0px 0px;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+	font-weight: 100;
+	line-height: 20px;
+}
+
+.b_col1 {
+	width: 160px;
+	float: left;
+	margin-left: 30px;
+}
+.b_col2 {
+	width: 130px;
+	float: left;
+	margin-left: 15px;
+}
+.b_col3 {
+	width: 212px;
+	float: left;
+	margin-left: 15px;
+	text-align: left;
+}
+.b_col4 {
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	text-align: left;
+}
+
+.spis {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis li {
+	padding: 8px 0px 0px 20px;
+	background: url(images/fish1.gif) 0px 14px no-repeat;
+	}
+.spis a:hover {
+	text-decoration:underline;
+	}
+	
+.spis a {
+	color:#ffffff;
+	text-decoration:none;}
+	
+.fu_i {
+	padding: 0px 14px 0px 0px;
+	vertical-align: middle ;
+}
+
+.spis2 {
+	list-style:none;
+	padding: 0px 0px 0px 0px;}
+
+.spis2 li {
+	padding: 10px 0px 0px 0px;
+	background: none;
+	}
+	
+.spis2 li a {
+	color:#ffffff;
+	text-decoration: none;
+	padding-top: 2px;
+	
+}
+.spis2 li a:hover {
+	text-decoration: underline;
+}
+
+#footer{
+	height: 70px;
+	font-size: 11px;
+	color: #ffffff;
+	text-align: center;
+	padding: 26px 0px 0px 0px;
+	background: url(images/footer.jpg) 0px 15px no-repeat;
+}
+
+#footer a{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: none;
+}
+
+#footer a:hover{
+	color: #ffffff;
+	font-size: 11px;
+	text-decoration: underline;
+}
+
+
+.lh { line-height: 25px;}
+
+
+
+/*
+scroll styles here
+*/
+
+.item { width: 780px; height: 273px;}
+.item img {float:left;}
+.item h2 { border:none; margin-bottom:15px;}
+
+.scrollable { position:relative; overflow:hidden; width: 780px; height: 273px;} 
+.scrollable .items { width:20000em; position:absolute;}
+.scrollable .items div { float:left;} 
+.scrollable .items .item { overflow:hidden;}
+.scrollable .items .item p { line-height:16px;}
+.navi { width:auto; height:20px;  margin: 15px 0; padding-left: 360px;} 
+.navi a { width: 20px; cursor:pointer; height: 20px; float:left; margin:0 0 0 3px; background:url(images/circl.jpg) no-repeat scroll top; display:block; font-size:1px;} 
+.navi a:hover, .navi a.active { background-position:left top; margin:0 0 0 3px;  background:url(images/circl_hov.jpg) no-repeat scroll top}
+
+.header1
+{
+width: 780px; height: 273px;
+}
+
+.header2
+{
+width: 780px; height: 273px;
+}
+
+.header3
+{
+width: 780px; height: 273px;
+}
+
+.header4
+{
+width: 780px; height: 273px;
+}
+
+/* ------------------------------------------------------------------------
+DO NOT CHANGE
+------------------------------------------------------------------------- */
+
+
+div.pp_overlay {background: #000;display: none;left: 0;position: absolute;top: 0;width: 100%;z-index: 9500;}
+div.pp_pic_holder {display: none;position: absolute;width: 100px;z-index: 10000;}
+

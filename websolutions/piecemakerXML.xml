@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Piecemaker>
+  <Settings>
+    <imageWidth>980</imageWidth>
+    <imageHeight>300</imageHeight>
+    <segments>7</segments>
+    <tweenTime>1.2</tweenTime>
+    <tweenDelay>0.1</tweenDelay>
+    <tweenType>easeInOutBack</tweenType>
+    <zDistance>0</zDistance>
+    <expand>20</expand>
+    <innerColor>0x111111</innerColor>
+    <textBackground>0x0064C8</textBackground>
+    <shadowDarkness>100</shadowDarkness>
+    <textDistance>25</textDistance>
+    <autoplay>12</autoplay>
+  </Settings>
+  <Image Filename="simple_img_1.jpg">
+    <Text>
+		<headline>Don't have a website?</headline>
+		<break>Ӂ</break>
+		<paragraph>If you don't have a website, then now is the perfect time to get one so you can have visibility on the web - every day that you don't have a web presence, you are missing out on lots of traffic, and means money!</paragraph>
+		<break>Ӂ</break>
+		<a href="?action=solutions" target="_blank">Click Here to Read More</a>
+	</Text>
+	</Image>
+	<Image Filename="simple_img_2.jpg">
+    <Text>
+		<break>Ӂ</break>
+      <headline>Need Website Updates?</headline>
+      <break>Ӂ</break>
+      <paragraph>If you already have a website and need updates, we have solutions for you as well.</paragraph> 
+	   <break>Ӂ</break>
+	   <paragraph>
+	  Whether it is a one time update or regular updates, we have a package that can fit your needs.</paragraph>
+	   <break>Ӂ</break>
+	  <a href="?action=solutions" target="_blank">Click Here to Read More</a>
+    </Text>
+  </Image>
+  <Image Filename="simple_img_3.jpg">
+	<Text>
+		<break>Ӂ</break>
+		<headline>We Provide Web Solutions</headline>
+		<break>Ӂ</break>
+		<paragraph>We don't just provide websites, we provide web solutions at affordable rates. That means you can complete your project on time and still keep your budget!</paragraph>
+		<break>Ӂ</break>
+		<break>Ӂ</break>
+		<a href="?action=solutions" target="_blank">Click Here to Read More</a>
+    </Text>
+  </Image>
+    <Image Filename="simple_img_4.jpg">
+    <Text>
+      <headline>What We Do</headline>
+      <break>Ӂ</break>
+      <paragraph>We don't just provide websites, we provide the total solution at affordable rates. Whether you need a long term project or a rushed job, we have the solution for you. </paragraph>
+      <break>Ӂ</break>
+	  <a href="?action=solutions" target="_blank">Click Here to Read More</a>
+    </Text>
+  </Image>
+    <Image Filename="simple_img_5.jpg">
+    <Text>
+      <headline>Our Commitment to You</headline>
+      <break>Ӂ</break>
+      <paragraph>We at BL Web Solutions live by the following principles: efficiency, economical, and excellence. We provide solutions for you that are fast, affordable, and high quality.</paragraph>
+       <break>Ӂ</break>
+	  <a href="?action=solutions" target="_blank">Click Here to Read More</a>
+    </Text>
+  </Image>
+  </Piecemaker>

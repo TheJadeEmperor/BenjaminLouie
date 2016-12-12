@@ -1,0 +1,88 @@
+*{
+	margin: 0px;
+	padding:0px;
+
+}
+
+html, body
+{
+	height:100%;
+	background:url(../img/bg.jpg);
+	background-repeat: x;
+ 	background-position: center;
+ 	background-attachment:fixed;
+ 	font-size:100%;
+}
+
+#content
+{
+	width: 800px;
+	height: 100%;
+	background-color: #FFFFFF;
+	border: 8px solid #FFFFFF;
+	border-bottom: 8px solid #FFFFFF; 
+}
+
+img
+{
+	border: 0;
+}
+
+table .navMenu
+{
+	background-color: #FF99FF;
+	height: 100%;
+	border:1;
+}
+
+div
+{
+	height: 100%;
+	background-color: #FF99FF;
+}
+
+ul.nav
+{
+	list-style-type: none;
+	border: 2px solid #FF6699; 
+	border-right: 5px solid #FF6699; 
+	border-left: 5px solid #FF6699; 
+	padding-left: 5px;
+	padding-top: 5px;
+}
+
+ul.nav li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 1.5em;
+	font-family: "Lucida Console", Monaco, monospace; 
+}
+
+
+ul.sub
+{
+	list-style-type: none;
+	border: 2px solid #FF6699; 
+	border-right: 5px solid #FF6699; 
+	border-left: 5px solid #FF6699; 
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: #FFFFFF;
+}
+
+ul.sub li a
+{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #FF99FF;
+	font-size: 1.5em;
+	font-family: "Lucida Console", Monaco, monospace; 
+}
+
+td.main
+{
+	padding: 10px;
+}
+

@@ -1,0 +1,1243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wallstreet\n"
+"POT-Creation-Date: 2014-12-21 18:09+0530\n"
+"PO-Revision-Date: 2014-12-21 18:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet-lite\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\themes"
+"\\wallstreet-lite\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/404.php:8
+msgid "Error -404"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/404.php:20
+msgid "Error 404"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/404.php:21
+msgid "Oops! Page not found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/404.php:22
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/404.php:23
+msgid "Go to Homepage"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:10
+msgid "Daily Archives:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:12
+msgid "Monthly Archives:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:14
+msgid "Yearly Archives:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:16
+msgid "Blog Archives"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/author.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/category.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/index.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/tag.php:39
+msgid "Read More"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/archive.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/author.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/category.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/index.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/single.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/tag.php:40
+msgid "Pages:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/author.php:8
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:20
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:21
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:26
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:31
+msgid "You must be"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:31
+msgid "logged in"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:31
+msgid "to post a comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:38
+msgid "Name:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:39
+msgid "Email:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:48
+msgid "Message:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:49
+msgid "Logged in as "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:49
+msgid "Log out of this account"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:49
+msgid " Log out?"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:51
+msgid "Send Message"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/comments.php:54
+msgid "Leave a Comment"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:31
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:48
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:89
+msgid "Sidebar"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:91
+msgid "The left sidebar widget area"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:99
+msgid "Footer Widget Area"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:101
+msgid "footer widget area"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:113
+msgid "Facebook Profile URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:114
+msgid "Twitter Profile URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:115
+msgid "Linkedin Profile URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:116
+msgid "Google Profile URL"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:149
+msgid "Reply"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:156
+msgid "Posted on &nbsp;"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:158
+msgid "Edit"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions.php:163
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:23
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:41
+msgid "Read more"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:56
+msgid "Previous"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:57
+msgid "Next"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:61
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/search.php:63
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/tag.php:9
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:19
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:27
+msgid "Clean & Fresh Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:20
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:28
+msgid "Welcome To Wallstreet"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:21
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:29
+msgid ""
+"The state-of-the-art HTML5 powered flexible layout with lightspeed fast CSS3 "
+"transition effects. Works perfect in any modern mobile..."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:28
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:38
+msgid "Product Designing"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:29
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:37
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:47
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor "
+"sit amet, consectetur adipisicing elit dignissim dapib tumst dign eger porta "
+"nisl."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:32
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:42
+msgid "WordPress Themes"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:36
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:46
+msgid "Responsive Designs"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:46
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:50
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:54
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:55
+msgid "Wall Street Style"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:55
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:52
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:56
+msgid ""
+"A wonderful serenity has taken possession of my entire soul, like these "
+"sweet mornings."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:31
+msgid "Our Services"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:63
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:32
+msgid "We Offer Great Services to our Clients"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:33
+msgid "Featured Portfolio Project"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:65
+msgid "Most Popular of Our Works."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/theme_setup_data.php:78
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:20
+msgid "Webriti"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:5
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/menu/default_menu_walker.php:23
+msgid "Home"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:24
+msgid "Archive by category "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:27
+msgid "Search results for "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:85
+msgid "Posts tagged "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:90
+msgid "Articles posted by "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:93
+msgid "Error 404 "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/breadcrumbs/breadcrumbs.php:98
+msgid "Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/option_pannel.php:4
+msgid "Wallstreet Option Panel"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/option_pannel.php:4
+msgid "Option Panel"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:8
+msgid "wallstreet"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:10
+msgid "Support Desk"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:11
+msgid "Theme Documentation"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:12
+msgid "View Changelog"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:22
+msgid "Home Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:23
+msgid "Quick Start"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:24
+msgid "Featured Image Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:25
+msgid "Service Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:26
+msgid "Project Portfolio"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:30
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:41
+msgid "Section Headings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:33
+msgid "Social Media Links"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:36
+msgid "Footer Customization"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:39
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:66
+msgid "Click OK to reset theme data. Theme settings will be lost!"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_option_pannel.php:66
+msgid "Restore All Defaults"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:20
+msgid "Quality Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:22
+msgid ""
+"Quality is a Responsive WordPress Theme. It is ideal for Corporate Sector , "
+"Business Website.Very Cleaned Design."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:23
+msgid ""
+"Quality is designed with Readability Flexibility in mind. It is suitable for "
+"Business website and other corporate website owner."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:24
+msgid "You can build an effective online presence for your business"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:26
+msgid "Buy Quality Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:27
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:63
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:82
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:101
+msgid "View Demo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:28
+msgid "New Theme"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:38
+msgid "Health Centre Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:40
+msgid ""
+"Health Centre is a Responsive WordPress Theme. It is ideal for Gym/Health "
+"Healing Centre Owner.Very Cleaned Design."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:41
+msgid ""
+"Health Centre is designed with Readability Flexibility in mind. It is "
+"suitable for Dentists, Doctors , Surgeons, hospitals and other type of "
+"Medical Websites."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:42
+msgid "Build an effective online presence with HealthCentre"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:44
+msgid "Buy Health Centre Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:56
+msgid "wallstreet Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:58
+msgid ""
+"wallstreet is a Responsive Multi-Purpose Wordpress Theme. It is ideal for "
+"creating a corporate website. It boasts of a highy functional Home Page ."
+"Very Cleaned Design."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:59
+msgid ""
+"wallstreet is designed with Readability Flexibility in mind. Customize it to "
+"your hearts content with Sortable Project Areas, Services Areas and Call Out "
+"Section.Use these great features to build an effective online presence for "
+"your business."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:60
+msgid ""
+"All of our Theme contain Responsive frameworks that adapt to Mobile Devices."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:62
+msgid "Buy wallstreet Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:74
+msgid "Busiprof Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:76
+msgid ""
+"A Beautiful and FLexible Responsive Businees Theme. It is ideal for creating "
+"a corporate website. It boasts of a highy functional Home Page and "
+"Widgetized Footer. Build an effective online presence with BusiProf."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:77
+msgid ""
+"Busiprof is designed with Flexibility in mind. Customize it to your hearts "
+"content with Sortable Project Areas, Services Areas and Testimonial "
+"Section. . Use these great features to build an effective online presence "
+"for your business"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:78
+msgid ""
+"The majority of our themes contain responsive frameworks that adapt to "
+"Mobile Devices."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:81
+msgid "Buy busiprof Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:93
+msgid "Spasalon Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:95
+msgid ""
+"A responsive theme for SPA SALON and BEAUTY SALON type of business that uses "
+"multiple nav menus, Right-sidebar, Featured Slider and Beautifully designed "
+"home page all manage via option panel."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:96
+msgid ""
+"Spasalon is designed with content flexibility and Intuitive features in "
+"mind. Use these great core features to grow your business."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:97
+msgid ""
+"The majority of our themes contain responsive frameworks that mold perfectly "
+"to fit all your mobile and Apple devices."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:98
+msgid ""
+"A responsive theme for SPA SALON and BEAUTY SALON type of business that uses "
+"multiple nav menus, Right-sidebar, Featured Slider."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/webriti_theme.php:100
+msgid "Buy Spasalon Pro"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:19
+msgid "Copyright @ 2014 - WALL STREET. Designed by"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:28
+msgid "Footer Customizations"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:30
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:68
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:57
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:39
+msgid "Options data successfully Saved"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:31
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:69
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:40
+msgid "Options data successfully reset"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:34
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:60
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:91
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:98
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:101
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:72
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:168
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:61
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:137
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:80
+msgid "Restore Defaults"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:35
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:61
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:52
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:92
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:99
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:73
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:169
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:138
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:81
+msgid "Save Options"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:42
+msgid "footer customizations text"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:44
+msgid "Enter the footer customizations text"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:47
+msgid "Created By Webriti text"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:49
+msgid "Enter the created by webriti text"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:53
+msgid "Created By Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_copyright_settings.php:55
+msgid "Enter the Call Out Button Link"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:45
+msgid "Social Media Links Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:59
+msgid "Enable social media links:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:60
+msgid "Enable social media links on header section."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:61
+msgid "Enable social media links on footer section."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:64
+msgid "Twitter Profile Link:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:66
+msgid "Enter twitter link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:69
+msgid "Facebook Profile Link:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:71
+msgid "Enter facebook link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:74
+msgid "Google Plus Profile Link:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:76
+msgid "Enter google plus link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:79
+msgid "Linkedin Profile Link:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:81
+msgid "Enter linkedin link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:84
+msgid "Youtube Profile Link:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/footer_social_media_links.php:86
+msgid "Enter youtube profile link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:34
+msgid "Most Popular of Our Works"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:58
+msgid "Enable Contact Information On Front Page"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:60
+msgid "Enable Contact Information On Front Page."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:63
+msgid "Contact Phone Number on Front Page:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:67
+msgid "Contact Email on Front Page:"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:71
+msgid "Service Tag Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:74
+msgid "Services Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:76
+msgid "Enter the services title."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:79
+msgid "Services Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:81
+msgid "Enter the services description."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:84
+msgid "Portfolio Tag Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:87
+msgid "Portfolio Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:89
+msgid "Enter the Portfolio Title."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:92
+msgid "Portfolio Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/head_titles.php:94
+msgid "Enter the Portfolio Description."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:37
+msgid "Quick Start Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:52
+msgid "To enable Themes Custom front page, create a page using this"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:52
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:54
+msgid "link."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:52
+msgid "and assign a template \"custom front page\"."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:53
+msgid ""
+"After assigning custom front page template Go To Settings >> Reading >> "
+"Select this page as a static front page."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:54
+msgid "Follow this "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:58
+msgid "Custom Logo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:59
+msgid "Add custom logo from here suggested size is 150X50 px"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:69
+msgid "Logo Height"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:70
+msgid ""
+"Default Logo Height : 50px, if you want to increase than specify your value"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:75
+msgid "Logo Width"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:76
+msgid ""
+"Default Logo Width : 150px, if you want to increase than specify your value"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:81
+msgid "Text Title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:82
+msgid "Enable text-based Site Title.   Setup title"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:82
+msgid "Click Here"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:85
+msgid "Custom Favicon"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:86
+msgid "Make sure you upload .icon image type which is not more then 25X25 px."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:95
+msgid "Custom css"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_page_settings.php:97
+msgid ""
+"This is a powerful feature provided here. No need to use custom css plugin, "
+"just paste your css code and see the magic."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:66
+msgid "Portfolio "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:81
+msgid "Enable Portfolio Section :"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:82
+msgid "Enable portfolio section on home page(project section)."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:86
+msgid "Portfolio One Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:89
+msgid "Portfolio Title One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:91
+msgid "Enter the Portfolio Title One."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:94
+msgid "Portfolio Description One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:96
+msgid "Enter the Portfolio Description One ."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:99
+msgid "Portfolio Image One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:100
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:120
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:140
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:160
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:89
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:109
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:129
+msgid "Add a image with size of 250 X 250 px. "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:106
+msgid "Portfolio Two Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:109
+msgid "Portfolio Title Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:111
+msgid "Enter the Portfolio Title Two."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:114
+msgid "Portfolio Description Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:116
+msgid "Enter the Portfolio Description Two."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:119
+msgid "Portfolio Image Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:126
+msgid "Portfolio Three Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:129
+msgid "Portfolio Title Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:131
+msgid "Enter the Portfolio Title Three."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:134
+msgid "Portfolio Description Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:136
+msgid "Enter the Portfolio Description Three."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:139
+msgid "Portfolio Image Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:146
+msgid "Portfolio Four Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:149
+msgid "Portfolio Title Four"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:151
+msgid "Enter the Portfolio Title Four."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:154
+msgid "Portfolio Description Four"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:156
+msgid "Enter the Portfolio Description Four."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_project_portfolio_settings.php:159
+msgid "Portfolio Image Four"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:55
+msgid "Service Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:70
+msgid "Enable Service Section"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:72
+msgid "Enable Service Section on front page."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:75
+msgid "Service One Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:78
+msgid "Service Title One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:80
+msgid "Enter the service title one."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:83
+msgid "Service Description One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:85
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:105
+msgid "Enter the service description one."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:88
+msgid "Service Image One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:95
+msgid "Service Two Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:98
+msgid "Service Title Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:100
+msgid "Enter the service title two."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:103
+msgid "Service Description Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:108
+msgid "Service Image Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:115
+msgid "Service Three Settings"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:118
+msgid "Service Title Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:120
+msgid "Enter the service title three."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:123
+msgid "Service Description Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:125
+msgid "Enter the service description three."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_service_settings.php:128
+msgid "Service Image Three"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:37
+msgid "Home Feature Image Setting"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:51
+msgid "Enable Home Banner"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:53
+msgid "Enable Home Banner on front page."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:56
+msgid "Slider Title One"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:58
+msgid "Enter the slider title one."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:61
+msgid "Slider Title Two"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:63
+msgid "Enter the slider title two."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:66
+msgid "Slider Description"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:68
+msgid "Enter the slider description."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:71
+msgid "Home Feature Image"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/home_slider_settings.php:72
+msgid "Add a image with size of 1600 X 750 px. "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:24
+msgid "Premium Theme Features"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:29
+msgid ""
+"wallstreet is designed with Readability Flexibility in mind. Customize it to "
+"your hearts content with Sortable Project Areas, Services Areas and Call Out "
+"Section. . Use these great features to build an effective online presence "
+"for your business."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:30
+msgid "Upgrade To Pro Version"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:31
+msgid "View Live Demo"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:39
+msgid "Responsive Layout"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:40
+msgid ""
+"All of our Theme contain Responsive frameworks that adapt to all Mobile "
+"Devices."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:46
+msgid "All Browser Support"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Theme supports all browsers.Like"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "IE 9 +"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Google Chrome"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Apple Safari"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:58
+msgid "Translation Ready"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:59
+msgid "You can use wallstreet-The WordPress Theme for any language."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:64
+msgid "Great Support Team"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:65
+msgid "Webriti  always offers you Great and Quick support."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:74
+msgid "wallstreet-Lite Vs wallstreet-Premium"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:77
+msgid "Sr. No."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:78
+msgid "Features"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:79
+msgid "Free"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:80
+msgid "Premium"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:85
+msgid "Home Page Sections "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:91
+msgid "Responsive Home Page Slider"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:97
+msgid "Blog Layout Variations"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:103
+msgid "Page Templates"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:108
+msgid "About Us Template, Portfolio Template, Services Template...   "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:114
+msgid "Custom Typography"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:120
+msgid "In-Built Contact Form"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:126
+msgid "Custom Widgets,Shortcodes.."
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:132
+msgid "Theme Support "
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:133
+msgid "Via Wordpress Forums"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:134
+msgid "Private Forums with Email Support"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:150
+msgid "Upgarde to Premium Here"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:156
+msgid "Upgrade To Premium Version"
+msgstr ""
+
+#: C:\xampp\htdocs\wordpress\wp-content\themes\wallstreet-lite/functions/theme_options/pages/UpgradeToPro.php:157
+msgid "View Live demo"
+msgstr ""

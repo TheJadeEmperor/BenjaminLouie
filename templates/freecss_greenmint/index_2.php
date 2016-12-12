@@ -1,0 +1,3 @@
+<?php include($_SERVER['DOCUMENT_ROOT'] .'/includes/preview_top.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'] .'/includes/google_preview_top.php'); ?><a href="http://www.metamorphozis.com/cgi-bin/counters/unicounter.pl?name=ftdbluemint&trackip=0&deliver=http://www.metamorphozis.com/free_templates/free_css_templates/ftdbluemint.zip" style="color: #678FEF; font-weight: bold; font-size: 18px;">DOWNLOAD</a>
+<?php include($_SERVER['DOCUMENT_ROOT'] .'/includes/preview_bottom.php'); ?>

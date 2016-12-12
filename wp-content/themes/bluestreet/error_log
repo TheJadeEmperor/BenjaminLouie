@@ -1,0 +1,4 @@
+[03-Aug-2016 10:09:57 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/bluestreet/functions.php on line 2
+[03-Aug-2016 12:15:12 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/bluestreet/functions.php on line 2
+[06-Aug-2016 04:27:58 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/bluestreet/functions.php on line 2
+[10-Aug-2016 09:20:23 America/Denver] PHP Fatal error:  Call to undefined function add_action() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/bluestreet/functions.php on line 2

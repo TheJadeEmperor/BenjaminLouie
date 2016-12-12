@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function(){
+	$('#contactform').submit(function(){				  
+		var action = $(this).attr('action');
+		$.post(action, { 
+			name: $('#name').val(),
+			email: $('#email').val(),
+			company: $('#company').val(),
+			subject: $('#subject').val(),
+			message: $('#message').val()
+		},
+			function(data){
+				$('#contactform #submit').attr('disabled','');
+				$('.response').remove();
+				$('#contactform').before('<p class="response">'+data+'</p>');
+				$('.response').slideDown();
+				if(data=='Message sent!') $('#contactform').slideUp();
+			}
+		); 
+		return false;
+	});
+});
+// ]]>
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="logo"><a href="index.html"><img src="images/logo.gif" width="461" height="187" border="0" alt="logo" /></a></div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html"><span>Home</span></a></li>
+        <li><a href="services.html"><span>Services</span></a></li>
+        <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+        <li><a href="contact.html"><span>About Us</span></a></li>
+        <li><a href="contact.html"   class="active"><span>Contact Us</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="block_header2">
+    <h2>Contact us</h2>
+    <p>Dummy text of the printing and typesetting industry.</p>
+  </div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="body_big">
+      <p><span>Simply dummy text of the printing and typesetting industry.</span></p>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry.<a href="#"> Lorem Ipsum has been the industry's</a> standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. </p>
+      <div class="form">
+        <form action="contact.php" method="post" id="contactform">
+          <ol>
+            <li>
+              <label for="name">First name <span class="red">*</span></label>
+              <input id="name" name="name" class="text" />
+            </li>
+            <li>
+              <label for="email">Your email <span class="red"> *</span> </label>
+              <input id="email" name="email" class="text" />
+            </li>
+            <li>
+              <label for="company">Company</label>
+              <input id="company" name="company" class="text" />
+            </li>
+            <li>
+              <label for="subject">Subject</label>
+              <input id="subject" name="subject" class="text" />
+            </li>
+            <li>
+              <label for="message">Message <span class="red">*</span></label>
+              <textarea id="message" name="message" rows="6" cols="50"></textarea>
+            </li>
+            <li class="buttons">
+              <input type="image" name="imageField" id="imageField" src="images/send.gif" />
+            </li>
+          </ol>
+        </form>
+      </div>
+      <p>&nbsp;</p>
+    </div>
+    <div class="body_small">
+      <h2>Adress</h2>
+      <p>» 1234 Make Believe<br />
+        » New York, NY 50210<br />
+        » United States of America<br />
+        » Tel: +1 234 567 8910<br />
+        » E-mail: <a href="#">mail@yoursitename.com</a></p>
+      <p><img src="images/map.jpg" alt="picture" width="223" height="223" /></p>
+    </div>
+    <div class="body_small">
+      <h2>Testimonials</h2>
+      <p><em>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the. industry's standard dummy”</em></p>
+      <p><a href="#" style="float:right;"><strong>-Jhon Jhohonson, web designer</strong></a></p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="services.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="portfolio.html">rss feed</a></li>
+      <li><a href="#"><img src="images/twitter.gif" alt="picture" width="80" height="15" border="0" /></a></li>
+    </ul>
+    <p>Copyright © Sitename.com. <a href="http://dreamtemplate.com/">dreamtemplate.com</a>. All Rights Reserved</p>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>

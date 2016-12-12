@@ -1,0 +1,14 @@
+url1=index.html
+&url2=about-us.html
+&url3=services.html
+&url4=portfolio.html
+&url5=contact.html
+&url6=http://www.yourcompanyname.com/page6.html
+&url7=http://www.yourcompanyname.com/page7.html
+&url8=http://www.yourcompanyname.com/page8.html
+&url9=http://www.yourcompanyname.com/page9.html
+&url10=http://www.yourcompanyname.com/page10.html
+&url11=http://www.yourcompanyname.com/page11.html
+&url12=http://www.yourcompanyname.com/page12.html
+&url13=http://www.yourcompanyname.com/page13.html
+&url14=http://www.yourcompanyname.com/page14.html

@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>contact</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+// <![CDATA[
+jQuery(document).ready(function(){
+	$('#contactform').submit(function(){				  
+		var action = $(this).attr('action');
+		$.post(action, { 
+			name: $('#name').val(),
+			email: $('#email').val(),
+			company: $('#company').val(),
+			subject: $('#subject').val(),
+			message: $('#message').val()
+		},
+			function(data){
+				$('#contactform #submit').attr('disabled','');
+				$('.response').remove();
+				$('#contactform').before('<p class="response">'+data+'</p>');
+				$('.response').slideDown();
+				if(data=='Message sent!') $('#contactform').slideUp();
+			}
+		); 
+		return false;
+	});
+});
+// ]]>
+</script>
+</head>
+<body>
+<div class="main">
+  <div class="header2">
+    <div class="logo"><a href="index.html"><img src="images/logo.gif" width="493" height="59" border="0" alt="logo" /></a></div>
+    <div class="search">
+      <form id="form1" name="form1" method="post" action="">
+        <label>
+          <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+          <input name="b" type="image" src="images/search.gif" class="button" />
+        </label>
+      </form>
+    </div>
+    <div class="clr"></div>
+    <div class="header_text2">
+      <h2>Contact us</h2>
+      <p>Lorem Ipsum as their default model text, and a search for lorem ipsum will uncover<br />
+        many web sites still in their infancy.</p>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html" >HOME</a></li>
+        <li><a href="portfolio.html" >PORTFOLIO</a></li>
+        <li><a href="services.html">ABOUT</a></li>
+        <li><a href="services.html"> SERVICES</a></li>
+        <li><a href="contact.html"  class="active">CONTACTS</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+    <div class="Twitter"><img src="images/twitter.gif" alt="picture" width="43" height="30" />
+      <p> <a href="#">follow me</a></p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="sub_left">
+      <p><strong>Simply dummy text of the printing and typesetting industry.</strong></p>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. <a href="#">Lorem Ipsum has been the industry's</a> standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. </p>
+      <p></p>
+      <form action="contact.php" method="post" id="contactform">
+        <ol>
+          <li>
+            <label for="name">First Name <span class="red">*</span></label>
+            <input id="name" name="name" class="text" />
+          </li>
+          <li>
+            <label for="email">Your email <span class="red">*</span></label>
+            <input id="email" name="email" class="text" />
+          </li>
+          <li>
+            <label for="company">Company</label>
+            <input id="company" name="company" class="text" />
+          </li>
+          <li>
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" class="text" />
+          </li>
+          <li>
+            <label for="message">Message <span class="red">*</span></label>
+            <textarea id="message" name="message" rows="6" cols="50"></textarea>
+          </li>
+          <li class="buttons">
+            <input type="image" name="imageField" id="imageField" src="images/send.gif" />
+          </li>
+        </ol>
+      </form>
+      <div class="clr"></div>
+    </div>
+    <div class="sub_right">
+      <h4>Get in touch!</h4>
+      <p>Feel free to contact me or please fill up below in the following details and I will be in touch shortly.</p>
+      <p>Address: 1458 Sample Road, Greenley, 12<br />
+        Telephone: +123-1234-5678<br />
+        FAX: +458-4578<br />
+        Others: +301 - 0125 - 01258<br />
+        E-mail: <a href="#">mail@yoursitename.com</a></p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="services.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="portfolio.html">rss feed</a></li>
+    </ul>
+    <p>Copyright © Sitename.com. <a href="http://dreamtemplate.com/">dreamtemplate.com</a>. All Rights Reserved</p>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+</body>
+</html>

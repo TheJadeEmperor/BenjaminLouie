@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+.gallery { width:876px; height:316px; margin:0 auto; padding:0; }
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:876px; height:316px; overflow:hidden; }
+p#controls { margin:0; padding:0; position:relative; }
+#prevBtn { display:block; margin:0; overflow:hidden; width:42px; height:32px; position:absolute; left:-81px; top:-180px; }
+#nextBtn { display:block; margin:0; overflow:hidden; width:42px; height:32px; position:absolute; left: 917px; top:-180px; }
+#prevBtn a { display:block; width:42px; height:32px; background:url(images/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:42px; height:32px; background:url(images/r_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="logo"><a href="index.html"><img src="images/logo.gif" width="493" height="59" border="0" alt="logo" /></a></div>
+    <div class="search">
+      <form id="form1" name="form1" method="post" action="">
+        <label>
+          <input name="q" type="text" class="keywords" id="textfield" maxlength="50" value="Search..." />
+          <input name="b" type="image" src="images/search.gif" class="button" />
+        </label>
+      </form>
+    </div>
+    <div class="clr"></div>
+    <div class="header_text">
+      <div class="gallery">
+        <div id="slider">
+          <ul>
+            <li>
+              <div class="div"><img src="images/simple_img_1.jpg" alt="screen 1" width="297" height="294" border="0" class="screen"  />
+                <div class="left1">
+                  <h2><strong>We create</strong> beautiful <br />
+                    <span> websites and </span><br />
+                    graphics for the web!</h2>
+                  <p>Lorem Ipsum as their default model text, and a search for <br />
+                    lorem ipsum will uncover many web sites still in their infancy.</p>
+                  <p><a href="#"><img src="images/site_map.gif" alt="picture" width="85" height="31" border="0" /></a> <a href="#"><img src="images/account.gif" alt="picture" width="85" height="31" border="0" /></a> </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="div"><img src="images/simple_img_2.jpg" alt="screen 1" width="297" height="294" border="0" class="screen"  />
+                <div class="left1">
+                  <h2><strong>We create</strong> beautiful <br />
+                    <span> websites and </span><br />
+                    graphics for the web!</h2>
+                  <p>Lorem Ipsum as their default model text, and a search for <br />
+                    lorem ipsum will uncover many web sites still in their infancy.</p>
+                  <p><a href="#"><img src="images/site_map.gif" alt="picture" width="85" height="31" border="0" /></a> <a href="#"><img src="images/account.gif" alt="picture" width="85" height="31" border="0" /></a> </p>
+                </div>
+              </div>
+            </li>
+            <li>
+              <div class="div"><img src="images/simple_img_3.jpg" alt="screen 1" width="297" height="294" border="0" class="screen"  />
+                <div class="left1">
+                  <h2><strong>We create</strong> beautiful <br />
+                    <span> websites and </span><br />
+                    graphics for the web!</h2>
+                  <p>Lorem Ipsum as their default model text, and a search for <br />
+                    lorem ipsum will uncover many web sites still in their infancy.</p>
+                  <p><a href="#"><img src="images/site_map.gif" alt="picture" width="85" height="31" border="0" /></a> <a href="#"><img src="images/account.gif" alt="picture" width="85" height="31" border="0" /></a> </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html" class="active">HOME</a></li>
+        <li><a href="portfolio.html">PORTFOLIO</a></li>
+        <li><a href="services.html">ABOUT</a></li>
+        <li><a href="services.html"> SERVICES</a></li>
+        <li><a href="contact.html">CONTACTS</a></li>
+      </ul>
+      <div class="clr"></div>
+    </div>
+    <div class="Twitter"><img src="images/twitter.gif" alt="picture" width="43" height="30" />
+      <p> <a href="#">follow me</a></p>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="bloga">
+      <h2 class="all">Our Services</h2>
+      <ul>
+        <li>Been the industry's standard dummy.</li>
+        <li>Simply dummy text orem.</li>
+        <li>Undustry's standard dummy text.</li>
+        <li>Been the industry's stan.</li>
+        <li>Simply dummy text orem Ipsum has.</li>
+        <li>Undustry's standard dum.</li>
+      </ul>
+    </div>
+    <div class="bloga">
+      <h2 class="all">People Says</h2>
+      <p><em>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ips has been the. industry's” standard  text ever since rinter dummy...”</em></p>
+      <p><a href="#" style="text-decoration:none; float:right;"><strong>Wolter Voinsert</strong></a></p>
+    </div>
+    <div class="bloga">
+      <h2 class="all">News &amp; Events</h2>
+      <p><strong>12th/ april/ 2010</strong><br />
+        Has been the industry's standard dummy text ever since thes.</p>
+      <p><strong>13th/ april/ 2010</strong><br />
+        Simply dummy text of the printing and typesetting industry. </p>
+    </div>
+    <div class="bloga no_border">
+      <h2 class="cont">Contacts</h2>
+      <p>Feel free to contact me or up below<br />
+        in the following </p>
+      <p><span>Address:</span> 1458 Sample Road,<br />
+        Greenvalley, 12<br />
+        <span>Telephone:</span> +123-1234-5678<br />
+        <span>Others:</span> +301 - 0125 - 01258<br />
+        <span>E-mail:</span> mail@yoursitename.com</p>
+    </div>
+    <div class="clr"></div>
+    <div class="bg_around">
+      <div class="body_big">
+        <h3>Welcome to our website</h3>
+        <p><strong>Simply dummy text of the printing and typesetting industry.</strong></p>
+        <img src="images/img_2.gif" alt="picture" width="103" height="103" />
+        <p>Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing<a href="#"> and typesetting industry</a>. Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. </p>
+        <p><a href="#" class="back">Been the industry's standard dummy </a></p>
+      </div>
+      <div class="body_small">
+        <h3>What we offer</h3>
+        <img src="images/img_1.gif" alt="picture" width="66" height="66" />
+        <p><strong>Why do we use it?</strong><br />
+          Lorem Ipsum is simply dummy text of the printing and typesetting industryhas been Lorem Ipsum is simply dummy text of the printing and typesetting industryhas been the industry's standard dummy text ever since the 1500s, when an unknown printer. Lorem Ipsum is simply.</p>
+        <p><a href="#" style="float:right;" class="back">read more</a></p>
+      </div>
+      <div class="clr"></div>
+    </div>
+    <div class="clr"></div>
+  </div>
+  <div class="footer">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="services.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="portfolio.html">rss feed</a></li>
+    </ul>
+    <p>Copyright © Sitename.com. <a href="http://dreamtemplate.com/">dreamtemplate.com</a>. All Rights Reserved</p>
+    <div class="clr"></div>
+  </div>
+  <div class="clr"></div>
+</div>
+</body>
+</html>

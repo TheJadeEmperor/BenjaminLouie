@@ -1,0 +1,156 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link href="style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/easySlider1.5.js"></script>
+<script type="text/javascript" charset="utf-8">
+// <![CDATA[
+$(document).ready(function(){	
+	$("#slider").easySlider({
+		controlsBefore:	'<p id="controls">',
+		controlsAfter:	'</p>',
+		auto: true, 
+		continuous: true
+	});	
+});
+// ]]>
+</script>
+<style type="text/css">
+#slider { width:810px; height:200px; margin:0 auto; padding:0; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:810px; height:200px; overflow:hidden; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:21px; height:21px; position:absolute; left:25px !important; left:-965px; top:-170px; }
+#nextBtn { top:-124px; }
+#prevBtn a { display:block; width:21px; height:21px; background:url(images/top_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:21px; height:21px; background:url(images/bottom_arrow.gif) no-repeat 0 0; }
+</style>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="logo"><a href="index.html"><img src="images/logo.gif" width="461" height="187" border="0" alt="logo" /></a></div>
+    <div class="menu">
+      <ul>
+        <li><a href="index.html" class="active"><span>Home</span></a></li>
+        <li><a href="services.html"><span>Services</span></a></li>
+        <li><a href="portfolio.html"><span>Portfolio</span></a></li>
+        <li><a href="contact.html"><span>About Us</span></a></li>
+        <li><a href="contact.html"><span>Contact Us</span></a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="block_header">
+    <div class="slider">
+      <div id="slider">
+        <ul>
+          <li>
+            <div class="img"><img src="images/simple_text_img_1.jpg" alt="picture" width="432" height="200" /></div>
+            <h2>Simply dummy text of the printing.</h2>
+            <p>Lorem Ipsum has been the dummy text ever since thes, when an unknown <a href="#"> industry's standard</a>printer. Simply dummy.</p>
+            <p><a href="#"><img src="images/read_more_top.gif" alt="picture" width="90" height="20" border="0" /></a></p>
+          </li>
+          <li>
+            <div class="img"><img src="images/simple_text_img_2.jpg" alt="picture" width="432" height="200" /></div>
+            <h2>Simply dummy text of the printing.</h2>
+            <p>Lorem Ipsum has been the dummy text ever since thes, when an unknown <a href="#"> industry's standard</a>printer. Simply dummy.</p>
+            <p><a href="#"><img src="images/read_more_top.gif" alt="picture" width="90" height="20" border="0" /></a></p>
+          </li>
+          <li>
+            <div class="img"><img src="images/simple_text_img_3.jpg" alt="picture" width="432" height="200" /></div>
+            <h2>Simply dummy text of the printing.</h2>
+            <p>Lorem Ipsum has been the dummy text ever since thes, when an unknown <a href="#"> industry's standard</a>printer. Simply dummy.</p>
+            <p><a href="#"><img src="images/read_more_top.gif" alt="picture" width="90" height="20" border="0" /></a></p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="header_panel">
+    <div class="bloga"> <img src="images/header_text_img_1.gif" alt="picture" width="53" height="53" />
+      <p><strong>Lorem Ipsum is simply dummy</strong><br />
+        Text of the printing and types...</p>
+    </div>
+    <div class="bloga"> <img src="images/header_text_img_2.gif" alt="picture" width="53" height="54" />
+      <p><strong>Lorem Ipsum is simply dummy</strong><br />
+        Text of the printing and types...</p>
+    </div>
+    <div class="bloga"> <img src="images/header_text_img_3.gif" alt="picture" width="51" height="51" />
+      <p><strong>Lorem Ipsum is simply dummy</strong><br />
+        Text of the printing and types...</p>
+    </div>
+  </div>
+  <div class="clr"></div>
+  <div class="body">
+    <div class="body_small">
+      <h2>Welcome </h2>
+      <p><span>Simply dummy text of the printing and typesetting industry.</span></p>
+      <p>Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing <a href="#">and typesetting industry. Lorem Ipsum</a> has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. <br />
+        Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer. Lorem Ipsum has been the industry's standard dummy text ever since thes, when an unknown printer.</p>
+    </div>
+    <div class="body_small">
+      <h2>What we do</h2>
+      <p><span>Dummy text of the printing and typesetting industry.</span></p>
+      <p>Has been the industry's standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text </p>
+      <p><a href="#"><img src="images/read_more.gif" alt="picture" width="90" height="20" border="0" /></a></p>
+    </div>
+    <div class="body_small">
+      <h2>Our Services</h2>
+      <ul>
+        <li>» <a href="#">Been the industry's standard dummy.</a></li>
+        <li>» <a href="#">Simply dummy text orem.</a></li>
+        <li>» <a href="#">Undustry's standard dummy text.</a></li>
+        <li>» <a href="#">Been the industry's stan.</a></li>
+        <li>» <a href="#">Undustry's standard dum.</a></li>
+        <li>» <a href="#">Simply dummy text orem.</a></li>
+        <li>» <a href="#">Been the industry's standard dum.</a><br />
+        </li>
+      </ul>
+      <p><a href="#"><img src="images/view_all.gif" alt="picture" width="79" height="20" border="0" /></a></p>
+    </div>
+    <div class="clr"></div>
+    <div class="body_small">
+      <h2>Testimonials</h2>
+      <p><em>“Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the. industry's standard dummy”</em></p>
+      <p><a href="#" style="float:right;"><strong>-Jhon Jhohonson, web designer</strong></a></p>
+    </div>
+    <div class="body_big">
+      <h2>Featured Services</h2>
+      <p>Been the industry's standard dummy text ever since thes, when rinter.Simply dummy text orem Ipsum has  standard dummy text ever since thes, when an unknown printer.Simply dummy text of the printing and typesetting industry. </p>
+      <ul>
+        <li>Been the industry's standard dummy text ever since thes, when rinter.</li>
+        <li>Simply dummy text orem Ipsum has  standard dummy text ever since thes, when an unknown. </li>
+      </ul>
+      <p>&nbsp;</p>
+    </div>
+  </div>
+  <div class="clr"></div>
+</div>
+<div class="footer">
+  <div class="footer_resize">
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="services.html">services</a></li>
+      <li><a href="portfolio.html">portfolio</a></li>
+      <li><a href="services.html">about</a></li>
+      <li><a href="contact.html">contact</a></li>
+      <li><a href="portfolio.html">rss feed</a></li>
+      <li><a href="#"><img src="images/twitter.gif" alt="picture" width="80" height="15" border="0" /></a></li>
+    </ul>
+    <p>Copyright © Sitename.com. <a href="http://dreamtemplate.com/">dreamtemplate.com</a>. All Rights Reserved</p>
+    <div class="clr"></div>
+  </div>
+</div>
+</body>
+</html>
