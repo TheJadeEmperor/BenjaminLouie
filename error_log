@@ -1,6 +1,0 @@
-[17-Sep-2016 04:37:31 America/Denver] PHP Warning:  require(ABSPATHwp-includes/load.php): failed to open stream: No such file or directory in /home2/codegeas/public_html/benjaminlouie/wp-settings.php on line 21
-[17-Sep-2016 04:37:31 America/Denver] PHP Fatal error:  require(): Failed opening required 'ABSPATHwp-includes/load.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear:/home2/codegeas/php') in /home2/codegeas/public_html/benjaminlouie/wp-settings.php on line 21
-[25-Oct-2016 09:28:41 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home2/codegeas/public_html/benjaminlouie/wp-includes/class-wp-xmlrpc-server.php on line 596
-[27-Oct-2016 03:48:18 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home2/codegeas/public_html/benjaminlouie/wp-includes/class-wp-xmlrpc-server.php on line 596
-[30-Oct-2016 08:55:22 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home2/codegeas/public_html/benjaminlouie/wp-includes/class-wp-xmlrpc-server.php on line 596
-[12-Nov-2016 11:34:36 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home2/codegeas/public_html/benjaminlouie/wp-includes/class-wp-xmlrpc-server.php on line 596
