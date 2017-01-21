@@ -7,42 +7,45 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 
 		<div class="row">
 			<div class="section_heading_title">
-				<?php if($current_options['portfolio_title']) { ?>
-				<h1><?php echo esc_html($current_options['portfolio_title']); ?></h1>
+				<br />
+				
+				<h1>Featured Categories</h1>
 				<div class="pagetitle-separator">
 					<div class="pagetitle-separator-border">
 						<div class="pagetitle-separator-box"></div>
 					</div>
 				</div>
-			<?php } ?>
-                                <p>This is just a bunch of crap that came with this template...and I'm too lazy to remove it, so here's some random pictures of shit that has nothing to do with anything lol</p>
+			          
 			</div>
 		</div>
+		
 		<div class="row">
 		<?php if($current_options['portfolio_image_one']) { ?>
+			<a href="http://benjaminlouie.com/category/funny-pics/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
 					
-						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_one']); ?>">
+						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_one']); ?>" width="263" height="241">
 					
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
 								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_one']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_one']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_one']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_one']);?></p>
-									<?php } ?>
+									
+									<h4>Funny Pics</h4>
+									 
+									<p>Check out our gallery of funny pics - guaranteed to make your jaw drop!</p>
+									
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 			<?php } 
-			 if($current_options['portfolio_image_two']) { ?>
+			if($current_options['portfolio_image_two']) { ?>
+			<a href="http://benjaminlouie.com/category/videos/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
@@ -52,20 +55,19 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
 								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_two']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_two']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_two']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_two']);?></p>
-									<?php } ?>
+									<h4>Youtube Videos</h4>
+
+									<p>Check out my Youtube videos of stand up comedy</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 			<?php }
 			if($current_options['portfolio_image_three']) { ?>
+			<a href="http://benjaminlouie.com/category/one-liners/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
@@ -75,20 +77,19 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
 								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_three']){ ?>
-									<h4><?php echo esc_html($current_options['portfolio_title_three']); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_three']){ ?>
-									<p><?php echo esc_html($current_options['portfolio_description_three']);?></p>
-									<?php } ?>
+									
+									<h4>One Liner Jokes</h4>
+									<p>Chuck Norris facts, Confucius says, Yo mama jokes, etc.</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-				<?php }
-				if($current_options['portfolio_title_four']) { ?>
+			</a>
+			<?php }
+			if($current_options['portfolio_title_four']) { ?>
+			<a href="http://benjaminlouie.com/category/reading-jokes/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
@@ -98,21 +99,19 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
 								<div class="home-portfolio-showcase-detail">
-									<?php if($current_options['portfolio_title_four']){ ?>
-									<h4><?php echo esc_html( $current_options['portfolio_title_four'] ); ?></h4>
-									<?php } ?>
-									<?php if($current_options['portfolio_description_four']){ ?>
-									<p><?php echo esc_html( $current_options['portfolio_description_four'] );?></p>
-									<?php } ?>
+									<h4>Reading Jokes</h4>
+
+									<p>Check out our selection of reading jokes - try this on your friends to impress them</p>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+			</a>
 	<?php } ?>
 		</div>
-</div>	
+	</div>	
 </div>
 <?php } ?>
-<!-- /wallstreet Portfolio Section ---->
+<!-- /Wallstreet Portfolio Section ---->

@@ -285,7 +285,7 @@
 	color: #ffffff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
-	color: #00c2a9;
+	/*color: #00c2a9;*/
 }
 .navbar > .container .navbar-brand {
 	margin-left: 15px;

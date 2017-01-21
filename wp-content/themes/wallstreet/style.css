@@ -9,6 +9,9 @@ Tags: green,black,gray,dark, full-width-template,translation-ready, threaded-com
 License: GNU General Public License v3 or later
 Text Domain: wallstreet
 background-color: rgba(0, 0, 0, 0.6); */
+
+
+
 body {
     background-color: #2a2c33;
     color: #333333;
@@ -975,7 +978,7 @@ a.url{ color:#00C2A9; }
     vertical-align: middle;
 }
 
-/*Footer Widgte Section-----------------------------------------------------------------------------------------*/
+/*Footer Widget Section-----------------------------------------------------------------------------------------*/
 
 .footer_section {
     background-color: rgba(0, 0, 0, 0.6);
@@ -1023,7 +1026,7 @@ a.url{ color:#00C2A9; }
     margin-bottom: 50px;
 }
 .footer_widget_column:first-child{
-    margin-right: 50px;
+    /*margin-right: 50px;*/
 }
 .footer_widget_title {
     color: #ffffff;
@@ -1096,6 +1099,25 @@ a.url{ color:#00C2A9; }
 .footer-blog-post:hover .post-date {
     background-color: #ffffff;
 }
+
+/* Center footer items */
+
+@media screen and (min-width: 768px) {
+	.footer-widget-section{
+	width: 800px !important;
+	margin: 0 auto !important;
+}
+
+	.footer_widget_column {
+		width: 30% !important;
+	}
+}
+
+
+/* Center footer items */
+
+
+
 .post-date span.date {
     font-family:'Roboto';
     font-weight:400;

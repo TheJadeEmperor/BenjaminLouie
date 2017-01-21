@@ -15,15 +15,17 @@ function webriti_custom_breadcrumbs() {
     if ($showOnHome == 1) echo '<li><a href="' . $homeLink . '">' . $home . '</a></li>';
  
   } else {
- 
+
     echo '<li><a href="' . $homeLink . '">' . $home . '</a> ' . '&nbsp &#47; &nbsp';
  
     if ( is_category() ) {
       $thisCat = get_category(get_query_var('cat'), false);
       if ($thisCat->parent != 0) echo get_category_parents($thisCat->parent, TRUE, ' ' . ' ');
-      echo $before . __('Archive by category / ','wallstreet') . single_cat_title('', false) . '' . $after;
+      //echo $before . __('Archive by category / ','wallstreet') . single_cat_title('', false) . $after;
+	  echo $before. single_cat_title('Archive by category ', false). $after;
  
-    } elseif ( is_search() ) {
+    } 
+	elseif ( is_search() ) {
       echo $before . __('Search results for ','wallstreet'). get_search_query() . '' . $after;
  
     } elseif ( is_day() ) {

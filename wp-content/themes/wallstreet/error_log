@@ -1,4 +1,0 @@
-[24-May-2016 10:56:27 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/wallstreet/author.php on line 1
-[11-Jun-2016 13:16:03 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/wallstreet/404.php on line 1
-[06-Jul-2016 20:04:41 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/wallstreet/author.php on line 1
-[08-Jul-2016 00:07:55 America/Denver] PHP Fatal error:  Call to undefined function get_template_directory_uri() in /home2/codegeas/public_html/benjaminlouie/wp-content/themes/wallstreet/functions.php on line 6
