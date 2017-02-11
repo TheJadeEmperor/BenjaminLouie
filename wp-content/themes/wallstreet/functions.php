@@ -254,4 +254,10 @@ function wallstreet_register_required_plugins() {
     tgmpa( $plugins, $config );
  
 }
+
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 35;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
 ?>

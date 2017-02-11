@@ -1104,12 +1104,12 @@ a.url{ color:#00C2A9; }
 
 @media screen and (min-width: 768px) {
 	.footer-widget-section{
-	width: 800px !important;
-	margin: 0 auto !important;
-}
+		width: 95% !important;
+		margin: 0 auto !important;
+	}
 
 	.footer_widget_column {
-		width: 30% !important;
+		width: 33% !important;
 	}
 }
 

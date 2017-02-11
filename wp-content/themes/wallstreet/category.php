@@ -20,8 +20,9 @@
 	<div class="row">
 
 		<div class="<?php if(is_active_sidebar('sidebar_primary')){ echo 'col-md-8'; } else { echo 'col-md-12'; } ?>" >
-			<?php if ( have_posts() ) { 
-			while(have_posts()){ the_post(); ?>
+			<?php 
+			if ( have_posts() ) { 
+			while(have_posts()) { the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class('blog-section-right'); ?>>
 				<?php if(has_post_thumbnail()){ ?>
 				<?php $defalt_arg =array('class' => "img-responsive"); ?>
@@ -36,8 +37,18 @@
 					</div>
 					<div class="blog-post-title-wrapper">
 						<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-						<?php the_content( __( 'Read More' , 'wallstreet' ) ); ?>
-						<?php wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'wallstreet' ), 'after' => '</div>' ) ); ?>
+						
+						<?php 
+						
+						//if the post is a video, show the entire contents
+						//otherwise excerpt shows nothing on video posts
+						if(in_category('Videos')) 
+							the_content();
+						else 
+							the_excerpt();	
+					
+						
+						wp_link_pages( array( 'before' => '<div class="page-links">' . __( 'Pages:', 'wallstreet' ), 'after' => '</div>' ) ); ?>
 						<div class="blog-post-detail">
 							<a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><i class="fa fa-user"></i> <?php the_author(); ?></a>
 							<?php 	$tag_list = get_the_tag_list();
