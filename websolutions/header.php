@@ -37,20 +37,20 @@
         );
 
         foreach ($menu as $url => $val) {
-            if ($url == $_GET[action]) {
+            if ($url == $_GET['action']) {
                 $class = ' class="active"';
-                $pageTitle = $val[pageTitle];
+                $pageTitle = $val['pageTitle'];
             } else
                 $class = '';
 
-            if ($val[menuTitle])
-                $mainMenu .= '<li><a href="?action=' . $url . '"' . $class . '><span>' . $val[menuTitle] . '</span></a></li>';
+            if ($val['menuTitle'])
+                $mainMenu .= '<li><a href="?action=' . $url . '"' . $class . '><span>' . $val['menuTitle'] . '</span></a></li>';
         }
 
 
         $mainMenu = '<ul>' . $mainMenu . '</ul>';
 
-        if ($_GET[action] == '' || $_GET[action] == 'home') {
+        if ($_GET['action'] == '' || $_GET['action'] == 'home') {
             echo '<div class="main">
 	<div class="header">
     <div class="logo"><a href="./"><img src="images/logo1.jpg" width="420px" border="0" alt="BL Web Solutions" 

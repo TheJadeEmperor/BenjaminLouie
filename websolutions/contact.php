@@ -1,12 +1,12 @@
 <?php
-if($_POST)
-{
+
+if($_POST) {
     $error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
 	 
     $values = array ('name','email','message');
     $required = array('name','email','message');
-    foreach($values as $key => $value)
-    {
+
+    foreach($values as $key => $value) {
         if(in_array($value, $required)) {
             if( empty($_POST[$value]) )  { 
                 $error .= '<br />Please fill in the required field: '.$value; 
@@ -26,10 +26,10 @@ if($_POST)
         $emailContent = "<p>You have sent a message to BL Web Solutions. The contents
         of the message are the following:</p> 
 
-        <p>Name: ".$_POST[name]."<br>
-        Company: ".$_POST[company]."<br>
-        Email: ".$_POST[email]."<br>
-        Message: ".$_POST[message]."</p>";
+        <p>Name: ".$_POST['name']."<br>
+        Company: ".$_POST['company']."<br>
+        Email: ".$_POST['email']."<br>
+        Message: ".$_POST['message']."</p>";
 
         if(@mail($adminEmail, $emailSubject, $emailContent, $headers)) {
             $error = 'Message sent! You will receive a confirmation email shortly.'; 
@@ -84,4 +84,3 @@ if($_POST)
         manager at 212-777-8001</p>
     </div>
 </div>
-
