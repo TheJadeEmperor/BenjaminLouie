@@ -6,7 +6,6 @@
 	<![endif]-->
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title><?php wp_title( '|', true, 'right' ); ?></title>
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<?php $wallstreet_pro_options=theme_data_setup();
 	  $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options ); ?>
@@ -17,7 +16,7 @@
 </head>
 <body <?php body_class(); ?>>
 <!--Header Top Layer Section-->	
-<!--	<div class="header-top-area">
+	<div class="header-top-area">
 	<div class="container">
 		<div class="row">
 			<div class="col-sm-6">
@@ -37,6 +36,9 @@
 					<?php }
 					if($current_options['social_media_youtube_link']!='') { ?>
 					<li><a href="<?php echo esc_url( $current_options['social_media_youtube_link'] ); ?>"><i class="fa fa-youtube"></i></a></li>					
+					<?php } 
+					if($current_options['social_media_instagram_link']!='') { ?>
+					<li><a href="<?php echo esc_url( $current_options['social_media_instagram_link'] ); ?>"><i class="fa fa-instagram"></i></a></li>					
 					<?php } ?>
 				</ul>
 				<?php } ?>	
@@ -46,10 +48,10 @@
 			<?php if($current_options['contact_header_settings']==true) { ?>
 				<ul class="head-contact-info">
 					<?php if($current_options['contact_phone_number']!=''){ ?>
-					<li><i class="fa fa-phone-square"></i><?php echo esc_html( $current_options['contact_phone_number'] ); ?></li>
+					<li><i class="fa fa-phone-square"></i><?php echo $current_options['contact_phone_number']; ?></li>
 					<?php } ?>
 					<?php if($current_options['contact_email']!=''){ ?>
-					<li><i class="fa fa-envelope"></i><?php echo sanitize_email( $current_options['contact_email'] ); ?></li>
+					<li><i class="fa fa-envelope"></i><?php echo  $current_options['contact_email']; ?></li>
 					<?php } ?>			
 				</ul>
 			<?php } ?>
@@ -57,7 +59,6 @@
 		</div>	
 	</div>
 </div>
--->
 <!--/Header Top Layer Section-->	
 
 <!--Header Logo & Menus-->
@@ -79,7 +80,7 @@
 			</a>
 		</a><!-- /logo -->
 		  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-			<span class="sr-only"><?php __("Toggle navigation",'wallstreet'); ?></span>
+			<span class="sr-only"><?php echo 'Toggle navigation'; ?></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>

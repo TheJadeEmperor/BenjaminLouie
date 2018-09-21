@@ -7,11 +7,12 @@
 				<div class="page-header-title">
 					<h1><?php the_title(); ?></h1>		
 				</div>
-			</div>	
+			</div>
 		</div>
 		<?php get_template_part('index', 'breadcrumb'); ?>
 	</div>	
 </div>
+
 <!-- /Page Title Section -->
 <!-- Blog & Sidebar Section -->
 <div class="container">

@@ -6,14 +6,15 @@
 		<div class="container">
 			<div class="row">
 				<div class="page-header-title">
-					<h1><?php echo single_cat_title("Category Archive: ", false); ?></h1>		
+					<h1><?php echo single_cat_title("Category Archive: ", false); ?></h1>
 				</div>
 			</div>	
 		</div>
-		<?php get_template_part('index', 'breadcrumb'); ?>
+		<!--<?php get_template_part('index', 'breadcrumb'); ?>-->
 	</div>
 </div>
 <!-- /Page Title Section -->
+
 
 <!-- Blog & Sidebar Section -->
 <div class="container">

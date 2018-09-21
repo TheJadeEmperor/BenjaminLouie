@@ -20,13 +20,13 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 		</div>
 		
 		<div class="row">
-		<?php if($current_options['portfolio_image_one']) { ?>
-			<a href="http://benjaminlouie.com/category/funny-pics/">
+		 
+			<a href="/category/funny-pics/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
 					
-						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_one']); ?>" width="263" height="241">
+						<img class="img-responsive home-portfolio-img" alt="Benjamin Louie Funny Pics" src="/wp-content/uploads/2016/09/FunnyPic-1-e1483417461449.jpg" width="263" height="241">
 					
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
@@ -43,14 +43,13 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				</div>
 			</div>
 			</a>
-			<?php } 
-			if($current_options['portfolio_image_two']) { ?>
-			<a href="http://benjaminlouie.com/category/videos/">
+			 
+			<a href="/category/videos/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
 					
-						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_two']); ?>">
+						<img class="img-responsive home-portfolio-img" alt="Benjamin Louie videos" src="/wp-content/uploads/2017/01/youtube.jpg">
 					
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
@@ -65,14 +64,12 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				</div>
 			</div>
 			</a>
-			<?php }
-			if($current_options['portfolio_image_three']) { ?>
-			<a href="http://benjaminlouie.com/category/one-liners/">
+ 			<a href="/category/one-liners/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
 					
-						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_three']); ?>">
+						<img class="img-responsive home-portfolio-img" alt="Benjamin Louie one liners" src="/wp-content/uploads/2017/01/NQSC0.gif">
 				
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
@@ -87,14 +84,13 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				</div>
 			</div>
 			</a>
-			<?php }
-			if($current_options['portfolio_title_four']) { ?>
-			<a href="http://benjaminlouie.com/category/reading-jokes/">
+		 
+			<a href="/category/reading-jokes/">
 			<div class="col-md-3 col-md-6 home-portfolio-area">
 				<div class="home-portfolio-showcase">
 					<div class="home-portfolio-showcase-media">
 					
-						<img class="img-responsive home-portfolio-img" alt="Sleek &amp; Beautiful" src="<?php echo esc_url($current_options['portfolio_image_four']); ?>">
+						<img class="img-responsive home-portfolio-img" alt="Benjamin Louie jokes" src="/wp-content/uploads/2017/01/trump-lead2-e1483417382754.jpg">
 				
 						<div class="home-portfolio-showcase-overlay">
 							<div class="home-portfolio-showcase-overlay-inner">
@@ -109,7 +105,7 @@ $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array()
 				</div>
 			</div>
 			</a>
-	<?php } ?>
+	 
 		</div>
 	</div>	
 </div>

@@ -1,24 +1,23 @@
 <!-- wallstreet Blog Section ---->
 <?php $wallstreet_pro_options=theme_data_setup();
 	  $current_options = wp_parse_args(  get_option( 'wallstreet_pro_options', array() ), $wallstreet_pro_options );
-          
-if($current_options['blog_section_enabled'] == true) { 
-?>	
+ if($current_options['blog_section_enabled'] == true) { ?>
 <div class="container home-blog-section">
-    <div class="row">
-        <div class="section_heading_title">
-            <h1>Our Latest Content</h1>
-
-            <div class="pagetitle-separator">
-                <div class="pagetitle-separator-border">
-                    <div class="pagetitle-separator-box"></div>
-                </div>
-            </div>
-            <p>Check back often for new jokes and humor</p>
-
-        </div>
-    </div>
-    
+	<div class="row">
+		<div class="section_heading_title">
+		<?php if($current_options['home_blog_heading']) { ?>
+			<h1><?php echo $current_options['home_blog_heading']; ?></h1>
+		<?php } ?>
+		<?php if($current_options['home_blog_description']) { ?>
+			<div class="pagetitle-separator">
+				<div class="pagetitle-separator-border">
+					<div class="pagetitle-separator-box"></div>
+				</div>
+			</div>
+			
+		<?php } ?>
+		</div>
+	</div>
 	<div class="row">
 		<?php
 		$j=1;
