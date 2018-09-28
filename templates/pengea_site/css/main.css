@@ -1545,7 +1545,7 @@ input::-moz-focus-inner {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
-.header-menu-toggle::before {
+/*.header-menu-toggle::before {
   display: inline-block;
   content: "Menu";
   height: 45px;
@@ -1556,7 +1556,7 @@ input::-moz-focus-inner {
   position: absolute;
   top: 0;
   right: 100%;
-}
+}*/
 .header-menu-toggle.opaque {
   background-color: #000000;
 }
