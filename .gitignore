@@ -2,7 +2,7 @@
 Thumbs.db
 ehthumbs.db
 wp-config.php
-templates/
+templates/**
 
 # Folder config file
 Desktop.ini
