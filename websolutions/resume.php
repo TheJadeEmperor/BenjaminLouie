@@ -1,18 +1,16 @@
 <?php
 include('menu.html');
 ?>
-
-
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
       <video autoplay muted loop id="bg-video">
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
+          <source src="assets/images/computer.mp4" type="video/mp4" />
       </video>
 
       <div class="video-overlay header-text">
           <div class="caption">
-              <h6>Portfolio of Benjamin Louie</h6>
-              <h2><em>Portfolio </em> of Benjamin Louie</h2>
+              <h6>Projects & Courses</h6>
+              <h2><em>Resume </em> of Benjamin Louie</h2>
               <div class="main-button">
                   <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
               </div>
@@ -71,6 +69,112 @@ include('menu.html');
     </div>
   </section>
 
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Resume</h2>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <section>
+          <center>
+          <p><img src="assets/images/resume/thumbnail.png"></p>
+          <p><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf">Download or View PDF</a></p>
+        
+          </center>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section why-us" data-section="section2">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Coding Lessons</h2>
+          </div>
+        </div>
+
+        <div class="col-md-12">
+           <figure>
+              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+            </figure>
+
+            <figure>
+              <a href="https://www.youtube.com/watch?v=3QN4p-SGiqA" class="play"><img src="assets/video/thumb_0621.jpg"></a>
+            </figure>
+
+            <figure>
+              <a href="https://www.youtube.com/watch?v=340XObAYAGo" class="play"><img src="assets/video/thumb_0623.jpg"></a>
+            </figure>
+
+            <figure>
+              <a href="https://www.youtube.com/watch?v=_V2Fi65WXkA" class="play"><img src="assets/video/thumb_0628.jpg"></a>
+            </figure>
+        </div>
+      </div>
+    </div>
+  
+  </section>
+
+
+  <section class="section video" data-section="section5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>our presentation is for you</span>
+            <h4>Watch the video to learn more <em>about Grad School</em></h4>
+            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
+            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Power HTML Template</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+   
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Power HTML Template</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+            </figure>
+          </article>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>our presentation is for you</span>
+            <h4>Watch the video to learn more <em>about Grad School</em></h4>
+            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
+            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
+            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
   <section class="section why-us" data-section="section2">
     <div class="container">
       <div class="row">
@@ -84,6 +188,11 @@ include('menu.html');
             <ul>
               <li><a href='#tabs-1'>Best Education</a></li>
               <li><a href='#tabs-2'>Top Management</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
+              <li><a href='#tabs-3'>Quality Meeting</a></li>
               <li><a href='#tabs-3'>Quality Meeting</a></li>
             </ul>
             <section class='tabs-content'>
@@ -127,7 +236,6 @@ include('menu.html');
       </div>
     </div>
   </section>
-
 
   <section class="section courses" data-section="port_pro">
     <div class="container-fluid">
@@ -271,32 +379,10 @@ include('menu.html');
 
 
 
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Grad School</em></h4>
-            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
-            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Power HTML Template</h4>
-            </div>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=r9LtOG6pNUw" class="play"><img src="assets/images/main-thumb.png"></a>
-            </figure>
-          </article>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
+
+         
   <section class="section contact" data-section="section6">
     <div class="container">
       <div class="row">
@@ -341,78 +427,8 @@ include('menu.html');
     </div>
   </section>
 
-  <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <p><i class="fa fa-copyright"></i> Copyright  <?php echo date('Y', time()); ?>
-          by <a href="https://benjaminlouie.com/websolutions"  target="_parent">BL Web Solutions</a></p>
-        </div>
-      </div>
-    </div>
-  </footer>
 
-  <!-- Scripts -->
-  <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-    <script src="assets/js/isotope.min.js"></script>
-    <script src="assets/js/owl-carousel.js"></script>
-    <script src="assets/js/lightbox.js"></script>
-    <script src="assets/js/tabs.js"></script>
-    <script src="assets/js/video.js"></script>
-    <script src="assets/js/slick-slider.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <script>
-        //according to loftblog tut
-        $('.nav li:first').addClass('active');
-
-        var showSection = function showSection(section, isAnimate) {
-          var
-          direction = section.replace(/#/, ''),
-          reqSection = $('.section').filter('[data-section="' + direction + '"]'),
-          reqSectionPos = reqSection.offset().top - 0;
-
-          if (isAnimate) {
-            $('body, html').animate({
-              scrollTop: reqSectionPos },
-            800);
-          } else {
-            $('body, html').scrollTop(reqSectionPos);
-          }
-
-        };
-
-        var checkSection = function checkSection() {
-          $('.section').each(function () {
-            var
-            $this = $(this),
-            topEdge = $this.offset().top - 80,
-            bottomEdge = topEdge + $this.height(),
-            wScroll = $(window).scrollTop();
-            if (topEdge < wScroll && bottomEdge > wScroll) {
-              var
-              currentId = $this.data('section'),
-              reqLink = $('a').filter('[href*=\\#' + currentId + ']');
-              reqLink.closest('li').addClass('active').
-              siblings().removeClass('active');
-            }
-          });
-        };
-
-        $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
-          if($(e.target).hasClass('external')) {
-            return;
-          }
-          e.preventDefault();
-          $('#menu').removeClass('active');
-          showSection($(this).attr('href'), true);
-        });
-
-        $(window).scroll(function () {
-          checkSection();
-        });
-    </script>
-</body>
-</html>
+<?php 
+include('footer.html');
+?>

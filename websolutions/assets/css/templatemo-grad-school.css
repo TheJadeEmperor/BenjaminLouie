@@ -828,6 +828,10 @@ section.courses .item .down-content p {
     margin-bottom: 25px;
 }
 
+section.courses .item .down-content p:last-child {
+    margin-bottom: 0px;
+}
+
 section.courses .item .down-content img {
     width: 40px;
     border: 2px solid #f5a425;
@@ -876,10 +880,6 @@ section.courses .owl-carousel button.owl-dot {
 section.courses .owl-carousel button.active {
     background-color: #f5a425;
 }
-
-
-
-
 
 /* Video */
 
