@@ -10,17 +10,27 @@ include('menu.html');
     <nav id="menu" class="main-nav" role="navigation">
       <ul class="main-menu">
         <li><a href="./#section1">Home</a></li>
-        <li class="has-submenu"><a href="#port_pro">Portfolio</a>
+
+        <li><a href="#stack">Tech Stack</a></li>
+
+        <li class="has-submenu"><a href="#projects">Projects</a>
           <ul class="sub-menu">
-            <li><a href="#port_pro">Professional</a></li>
-            <li><a href="#port_client">Client</a></li>
+            <li><a href="#alcolhol_screening">Alcohol Screening</a></li>
+            <li><a href="#tammi">Tammi Landing Page</a></li>
+            <li><a href="#mg_calendar">jQuery Calendar</a></li>
+            <li><a href="#mg_user">jQuery User</a></li>
           </ul>
         </li>
-        <li><a href="resume.php" class="external">Resume</a></li>
-
-        <li><a href="resume.php#courses">Teaching</a></li>
        
-        <li><a href="./#section6">Contact</a></li>
+
+        <li class="has-submenu"><a href="resume.php#courses">Teaching</a>
+          <ul class="sub-menu">
+            <li><a href="#top_classes">Featured</a></li>
+            <li><a href="#all_classes">All Classes</a></li>
+          </ul>
+      </li>
+       
+       <!-- <li><a href="./#section6">Contact</a></li>-->
        
       </ul>
     </nav>
@@ -37,7 +47,7 @@ include('menu.html');
               <h6>Projects & Courses</h6>
               <h2><em>Resume </em> of Benjamin Louie</h2>
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                  <div class="scroll-to-section"><a href="#section2">Career Highlights</a></div>
               </div>
           </div>
       </div>
@@ -52,7 +62,7 @@ include('menu.html');
           <div class="features-post">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-pencil"></i>All Courses</h4>
+                <h4><i class="fa fa-pencil"></i>Clients</h4>
               </div>
               <div class="content-hide">
                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
@@ -66,7 +76,7 @@ include('menu.html');
           <div class="features-post second-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>Virtual Class</h4>
+                <h4><i class="fa fa-graduation-cap"></i>Full Stack Teacher</h4>
               </div>
               <div class="content-hide">
                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
@@ -80,7 +90,7 @@ include('menu.html');
           <div class="features-post third-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-book"></i>Real Meeting</h4>
+                <h4><i class="fa fa-book"></i>Projects</h4>
               </div>
               <div class="content-hide">
                 <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
@@ -95,7 +105,7 @@ include('menu.html');
   </section>
 
 
-  <section class="section why-us" data-section="section2">
+  <section class="section why-us" data-section="stack">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -106,8 +116,7 @@ include('menu.html');
         <div class="col-md-12">
           <section>
           <center>
-          <p><img src="assets/images/resume/thumbnail.png"></p>
-          <p><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf">Download or View PDF</a></p>
+          <p><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf"><img src="assets/images/resume/thumbnail.png"><br><br>Download or View PDF</a></p>
         
           </center>
           </section>
@@ -116,7 +125,66 @@ include('menu.html');
     </div>
   </section>
 
-  <section class="section why-us" data-section="section2">
+  <section class="section video" data-section="top_classes">
+    <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Featured Lessons</h2>
+          </div>
+      </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Teaching CSS</span>
+            <h4><em>CSS Blocks</em> - Display block, inline, and inline-block  </h4>
+            <p>In this lesson, I go over the differences between block, inline, and inline-block, as well as apply them in practice. Also, I analyze sample websites submitted by my students and explain their code, as well as duplicate the website using the code I taught in class.</p>
+            <p>What makes me different than other teachers is that I teach not only theory, but practice using real world examples. </p>
+            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/watch?v=gboHYbaJs1A" target="_parent">Watch on Youtube</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>CSS Blocks & CSS Exercises</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=gboHYbaJs1A" class="play"><img src="assets/video/thumb_0623.jpg"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+     
+  <section class="section video">
+    <div class="container">
+      <div class="row">
+      <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Intro to Bash</h4>
+            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=w33oS9eSi8A" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+            </figure>
+          </article>
+      </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Introduction to <em>Full Stack</em> Development</span>
+            <h4>Bash Programming & How the Internet Works</h4>
+            <p>In this lesson, I introduce my students to the concept of the internet and how websites work, and then I teach them how to work their way around linux using bash.</p>
+            <p>Unlike other professors, I have worked in several companies before becoming a teacher, so I teach from experience. If you want to learn how to code, <a href="./#section6">contact us here</a>.</p>
+            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/watch?v=w33oS9eSi8A" target="_parent">Watch on Youtube</a></div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+  <section class="section why-us" data-section="all_classes">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -125,81 +193,57 @@ include('menu.html');
           </div>
         </div>
 
-        <div class="col-md-12">
-           <figure>
-              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
-            </figure>
+        <div class="col-md-12 coding_thumbnails">
+<?php
 
-            <figure>
-              <a href="https://www.youtube.com/watch?v=3QN4p-SGiqA" class="play"><img src="assets/video/thumb_0621.jpg"></a>
-            </figure>
 
-            <figure>
-              <a href="https://www.youtube.com/watch?v=340XObAYAGo" class="play"><img src="assets/video/thumb_0623.jpg"></a>
-            </figure>
+$coding_video = array(
+  '0616' => array(
+    'url' => 'https://www.youtube.com/watch?v=XvOj2Z4ispc',
+    'thumb' => 'thumb_0616.jpg', 
+    'p' => 'HTML Basics & HTML Forms'
+  ),
+  '0621' => array(
+    'url' => 'https://www.youtube.com/watch?v=3QN4p-SGiqA',
+    'thumb' => 'thumb_0621.jpg',
+    'p' => 'HTML & Basic CSS'
+  ),
+  '0623' => array(
+    'url' => 'https://www.youtube.com/watch?v=340XObAYAGo',
+    'thumb' => 'thumb_0623.jpg',
+    'p' => 'Basic CSS & Mockups'
+  ),
+  '0628' => array(
+    'url' => 'https://www.youtube.com/watch?v=_V2Fi65WXkA',
+    'thumb' => 'thumb_0628.jpg',
+    'p' => 'CSS Exercises & CSS Box Model & Trello'
+  ),
+  '0630' => array(
+    'url' => 'https://www.youtube.com/watch?v=gboHYbaJs1A',
+    'thumb' => 'thumb_0630.jpg',
+    'p' => 'CSS Exercises & CSS Display-Block Model'
+  ),
+);
 
-            <figure>
-              <a href="https://www.youtube.com/watch?v=_V2Fi65WXkA" class="play"><img src="assets/video/thumb_0628.jpg"></a>
-            </figure>
-        </div>
-      </div>
-    </div>
+
+foreach($coding_video as $code) {
+  echo '
+  <div class="coding_video">
+    <figure>
+      <a href="'.$code['url'].'" class="play"><img src="assets/video/'.$code['thumb'].'"></a>
+    </figure>
+    <p>'.$code['p'].'</p>
+  </div>';
+}
+ 
+?>   
   
-  </section>
-
-
-  <section class="section video" data-section="section5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Grad School</em></h4>
-            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
-            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
-          </div>
         </div>
-        <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Power HTML Template</h4>
-            </div>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
-            </figure>
-          </article>
-        </div>
-      </div>
-    </div>
-   
-    <div class="container">
-      <div class="row">
-      <div class="col-md-6">
-          <article class="video-item">
-            <div class="video-caption">
-              <h4>Power HTML Template</h4>
-            </div>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=XvOj2Z4ispc" class="play"><img src="assets/video/thumb_0616.jpg"></a>
-            </figure>
-          </article>
-        </div>
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-            <span>our presentation is for you</span>
-            <h4>Watch the video to learn more <em>about Grad School</em></h4>
-            <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. You may <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> for details.
-            <br><br>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-            <div class="main-button"><a rel="nofollow" href="https://fb.com/templatemo" target="_parent">External URL</a></div>
-          </div>
-        </div>
-        
       </div>
     </div>
   </section>
 
-
+<!--
   <section class="section why-us" data-section="section2">
     <div class="container">
       <div class="row">
@@ -214,11 +258,7 @@ include('menu.html');
               <li><a href='#tabs-1'>Best Education</a></li>
               <li><a href='#tabs-2'>Top Management</a></li>
               <li><a href='#tabs-3'>Quality Meeting</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
+             
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
@@ -261,153 +301,123 @@ include('menu.html');
       </div>
     </div>
   </section>
+-->
 
-  <section class="section courses" data-section="port_pro">
+ 
+  <section class="section courses" data-section="projects">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Professional Portfolio</h2>
+            <h2>Professional Projects</h2>
           </div>
         </div>
+        <div class="col-md-12">
+  
+          <div class="projects_list">
+        <?php 
+$projects_list = array(
+  'jQuery Calendar' => array(
+    'thumb' => 'assets/images/mg_calendar/calendar.jpg',
+    'p' => 'jQuery Calendar'
+  ),
+  'jQuery User' => array(
+    'thumb' => 'assets/images/mg_user/user_login.jpg',
+    'p' => 'jQuery User'
+  ),
+  'Tammi' => array(
+    'thumb' => 'assets/images/tammi_landing_page/thumb.jpg',
+    'p' => 'Tammi'
+  ),
+  'Alcohol Screening' => array(
+    'thumb' => 'assets/images/alcoholscreening_desktop/thumb.jpg',
+    'p' => 'Tammi'
+  ),
+  'Help & Hope' => array(
+    'thumb' => 'assets/images/sms_hxh/thumb_hxh.jpg',
+    'p' => 'Tammi'
+  ),
+  'Heroin Hub' => array(
+    'thumb' => 'assets/images/sms_hxh/thumb_heroin.jpg',
+    'p' => 'Tammi'
+  ),
+);
 
-        <div class="owl-carousel owl-theme">
+foreach ($projects_list as $name => $proj) {
+  echo '
+  <div class="project_item">
+  <a href="'.$proj['thumb'].'" target="_BLANK"><img src="'.$proj['thumb'].'" alt="'.$name.'"></a>
+  <div class="down-content">
+    <h4>'.$name.'</h4>
+    <p>'.$proj['p'].'</p>
+  </div>
+</div>';
+}
+
+
+        ?>
+        
+             </div>         
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section video" data-section="top_classes">
+    <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Featured Projects</h2>
+          </div>
+        </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
            
-          <div class="item">
-            <img src="assets/images/portfolio/drugfree.org.jpg" alt="">
-            <div class="down-content">
-              <h4>Partnership for DrugFree Kids</h4>
-              <p>A national non-profit org</p>
-             
-            </div>
+            <h4>Alcohol Screening</h4>
+            <p>If you're wondering if you're drinking too much or just curious, you can take this screening to see your risk level compared to your peers. Take the short assessment to receive a score of low, moderate or high risk, as well as recommendations to begin quitting. </p>
+            <p>Built using Wordpress, <em>Advanced Custom Fields</em>, PHP & MySQL. Desktop & mobile screenshots included.</p>
+            <div class="main-button"><a rel="nofollow" href="https://alcoholscreening.org" target="_BLANK">View Live Site</a></div>
           </div>
+        </div>
+        <div class="col-md-6">
+          hoverbox content 
+        </div>
+      </div>
+    </div>
+  <p>&nbsp;</p>
 
-          <div class="item">
-            <img src="assets/images/portfolio/drugfree.org.jpg" alt="">
-            <div class="down-content">
-              <h4>Center to End Addiction</h4>
-              <p>A national non-profit org</p>
-             
+  <div class="container">
+    <div class="row"> 
+    <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Intro to Bash</h4>
             </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/styleedit.jpg" alt="">
-            <div class="down-content">
-              <h4>Style Edit</h4>
-              <p>A magazine owned by Mana Products. Photoshop files were given as specs and everything had to be pixel perfect.</p>
-              
-            </div>
-          </div>
-          <div class="item">
-            <img src="assets/images/portfolio/tgioa.com.jpg" alt="">
-            <div class="down-content">
-              <h4>TGI Office Automation</h4>
-              <p>A national printing company that supplies printers, copiers, etc. to their clients</p>
-               
-            </div>
+            <figure>
+              <a href="https://www.youtube.com/watch?v=w33oS9eSi8A" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+            </figure>
+          </article>
+      </div>
+        
+      
+        <div class="col-md-6">
+          <div class="left-content">
+          <h4>jQuery Calendar</h4>
+          <p>If you're wondering if you're drinking too much or just curious, you can take this screening to see your risk level compared to your peers. Take the short assessment to receive a score of low, moderate or high risk, as well as recommendations to begin quitting. </p>
+            <p>Built using Wordpress, <em>Advanced Custom Fields</em>, PHP & MySQL. Desktop & mobile screenshots included.</p>
+            <div class="main-button"><a rel="nofollow" href="https://alcoholscreening.org" target="_BLANK">View Live Site</a></div>
           </div>
         
-         
         </div>
-      </div>
+     
     </div>
-  </section>
-  
-  <section class="section courses" data-section="port_client">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Client Portfolio</h2>
-          </div>
-        </div>
-
-        <div class="owl-carousel owl-theme">
-          <div class="item">
-            <img src="assets/images/portfolio/bestpayingsites.jpg" alt="Course #2">
-            <div class="down-content">
-              <h4>BestPayingSites</h4>
-              <p>A client wanted to make a sales page to sell ebooks, integrated with Paypal IPN (Instant Payment Notification) API</p>
-              
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/animefavorite.jpg" alt="Course #1">
-            <div class="down-content">
-              <h4>AnimeFavorite</h4>
-              <p>An anime site made for a client</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/codegeass.us.jpg" alt="">
-            <div class="down-content">
-              <h4>CodeGeass Website</h4>
-              <p>A personal website I made for my favorite anime</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/codegeass1.jpg" alt="">
-            <div class="down-content">
-              <h4>CodeGeass Website v2</h4>
-              <p>The newer version of CodeGeass</p>
-            </div>
-          </div>
-         
-          <div class="item">
-            <img src="assets/images/portfolio/codegeass.forum1.jpg" alt="Course #3">
-            <div class="down-content">
-              <h4>CodeGeass Forum</h4>
-              <p>A forum run in PHP</p> 
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/codegeass.forum2.jpg" alt="Course #4">
-            <div class="down-content">
-              <h4>CodeGeass Forum</h4>
-              <p>Version 2 of the Forum</p>
-            </div>
-          </div>
-       
-          <div class="item">
-            <img src="assets/images/portfolio/wwv.jpg" alt="">
-            <div class="down-content">
-              <h4>World Wide Video</h4>
-              <p>Made for a client who sells security cameras</p>
-             
-            </div>
-          </div>
-          
-          <div class="item">
-            <img src="assets/images/portfolio/nus.jpg" alt="">
-            <div class="down-content">
-              <h4>NeobuxUlimateStrategy</h4>
-              <p>A sales page and membership site run in PHP and MySQL</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="assets/images/portfolio/pxo.jpg" alt="">
-            <div class="down-content">
-              <h4>PXOrigins</h4>
-              <p>A client wanted a video game blog without using a cms. I developed a blog cms using only PHP and MySQL and HTML templates</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  </div>
+</section>
 
 
-
-  
-
-
-         
   <section class="section contact" data-section="section6">
     <div class="container">
       <div class="row">

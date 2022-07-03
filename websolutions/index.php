@@ -90,7 +90,7 @@ $carousel_pro = array(
        
         <li><a href="resume.php" class="external">Resume</a></li>
 
-        <li><a href="#section6">Contact</a></li>
+      <!--  <li><a href="#section6">Contact</a></li>-->
        
       </ul>
     </nav>
@@ -160,7 +160,7 @@ $carousel_pro = array(
               <div class="content-hide">
                 <p>Want to learn how to code html, css and other popular languages? We have taught full stack programming at univerities before and now are offering private classes.</p>
                 <p class="hidden-sm">Want to learn how to code html, css and other popular languages? We have taught full stack programming at univerities before and now are offering private classes.</p>
-                <div class="scroll-to-section"><a href="resume.php#code" class="external">Read More</a></div>
+                <div><a href="resume.php#top_classes" class="external">Read More</a></div>
             </div>
             </div>
           </div>
