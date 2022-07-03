@@ -1,5 +1,5 @@
 <?php
-include('menu.html');
+include('menu.php');
 ?>
 
 <header class="main-header clearfix" role="header">
@@ -366,11 +366,6 @@ foreach ($projects_list as $name => $proj) {
 
 
   <section class="section video" data-section="top_classes">
-    <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Featured Projects</h2>
-          </div>
-        </div>
     <div class="container">
       <div class="row">
         <div class="col-md-6 align-self-center">
@@ -383,25 +378,40 @@ foreach ($projects_list as $name => $proj) {
           </div>
         </div>
         <div class="col-md-6">
-          hoverbox content 
-        </div>
+          <div class="left-content">
+            <article class="video-item">
+            
+            <?php 
+            $atts = array(
+              'project_folder' => 'alcoholscreening_desktop',
+              'project_name' => 'Alcohol Screening'
+            );
+              
+            echo gallery_function($atts);
+            ?>
+            </article>
+          </div>
       </div>
     </div>
-  <p>&nbsp;</p>
+  <p>&nbsp;</p><p>&nbsp;</p>
 
   <div class="container">
     <div class="row"> 
     <div class="col-md-6">
+      <div class="left-content">
           <article class="video-item">
-            <div class="video-caption">
-              <h4>Intro to Bash</h4>
-            </div>
-            <figure>
-              <a href="https://www.youtube.com/watch?v=w33oS9eSi8A" class="play"><img src="assets/video/thumb_0616.jpg"></a>
-            </figure>
+            
+          <?php 
+          $atts = array(
+            'project_folder' => 'mg_calendar',
+            'project_name' => 'jQuery Calendar'
+          );
+            
+          echo gallery_function($atts);
+          ?>
           </article>
       </div>
-        
+      </div>
       
         <div class="col-md-6">
           <div class="left-content">

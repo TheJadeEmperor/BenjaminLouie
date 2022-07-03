@@ -1,5 +1,5 @@
 <?php
-include('menu.html');
+include('menu.php');
 
 $portFolder = 'assets/images/portfolio/';
 
