@@ -1,3 +1,49 @@
+<!--
+  <section class="section contact" data-section="section6">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Let’s Keep In Touch</h2>
+          </div>
+        </div>
+        <div class="col-md-6">
+         
+        <form id="contact" action="" method="post">
+            <div class="row">
+              <div class="col-md-6">
+                  <fieldset>
+                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-6">
+                  <fieldset>
+                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+                  </fieldset>
+                </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                </fieldset>
+              </div>
+              <div class="col-md-12">
+                <fieldset>
+                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                </fieldset>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0259022289138!2d-73.9896948852854!3d40.6954271793337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a6c47643b%3A0x284552dca0b97d69!2sNew%20York%20City%20College%20of%20Technology!5e0!3m2!1sen!2sus!4v1656563562452!5m2!1sen!2sus" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ -->
+
 <footer>
     <div class="container">
       <div class="row">
@@ -50,6 +96,8 @@
           topEdge = $this.offset().top - 80,
           bottomEdge = topEdge + $this.height(),
           wScroll = $(window).scrollTop();
+       
+          console.log( $this.data('section')); 
           if (topEdge < wScroll && bottomEdge > wScroll) {
             var
             currentId = $this.data('section'),
@@ -58,7 +106,8 @@
             siblings().removeClass('active');
           }
         });
-      };
+       };
+
 
       $('.main-menu, .scroll-to-section').on('click', 'a', function (e) {
         if($(e.target).hasClass('external')) {

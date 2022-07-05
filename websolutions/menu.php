@@ -101,6 +101,8 @@ function gallery_function($atts) {
 
     return $galleryContent;
 }
+
+
 ?>
 
 <!DOCTYPE html>
