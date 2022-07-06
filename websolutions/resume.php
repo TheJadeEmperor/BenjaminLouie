@@ -3,37 +3,34 @@ include('menu.php');
 ?>
 
 <header class="main-header clearfix" role="header">
-    <div class="logo">
-      <a href="#"><em>Resume</em></a>
-    </div>
-    <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
-    <nav id="menu" class="main-nav" role="navigation">
-      <ul class="main-menu">
-        <li><a href="./#section1">Home</a></li>
+  <div class="logo">
+    <a href="#"><em>Resume</em></a>
+  </div>
+  <a href="#menu" class="menu-link"><i class="fa fa-bars"></i></a>
+  <nav id="menu" class="main-nav" role="navigation">
+    <ul class="main-menu">
+      <li><a href="./#section1">Home</a></li>
 
-        <li><a href="#stack">Tech Stack</a></li>
+      <li><a href="#stack">Tech Stack</a></li>
 
-        <li class="has-submenu"><a href="#projects">Projects</a>
-          <ul class="sub-menu">
-            <li><a href="#projects_1">Alcohol Screening</a></li>
-            <li><a href="#tammi_landing_page">Tammi Landing Page</a></li>
-            <li><a href="#mg_calendar">jQuery Calendar</a></li>
-            <li><a href="#mg_user">jQuery User</a></li>
-          </ul>
-        </li>
-      
-        <li class="has-submenu"><a href="resume.php#top_classes">Teaching</a>
-          <ul class="sub-menu">
-            <li><a href="#top_classes">Featured</a></li>
-            <li><a href="#all_classes">All Classes</a></li>
-          </ul>
+      <li class="has-submenu"><a href="#projects">Projects</a>
+        <ul class="sub-menu">
+          <li><a href="#alcohol_screening">Alcohol Screening</a></li>
+          <li><a href="#tammi_landing_page">Tammi Landing Page</a></li>
+          <li><a href="#mg_calendar">jQuery Calendar</a></li>
+          <li><a href="#mg_user">jQuery User</a></li>
+        </ul>
       </li>
-       
-       <!-- <li><a href="./#section6">Contact</a></li>-->
-       
-      </ul>
-    </nav>
-  </header>
+    
+      <li class="has-submenu"><a href="resume.php#top_classes">Teaching</a>
+        <ul class="sub-menu">
+          <li><a href="#top_classes">Featured</a></li>
+          <li><a href="#all_classes">All Classes</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</header>
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">
@@ -318,11 +315,11 @@ include('menu.php');
 $projects_list = array(
   'jQuery Calendar' => array(
     'thumb' => 'assets/images/mg_calendar/calendar.jpg',
-    'p' => 'jQuery Calendar'
+    'p' => '<div class="scroll-to-section"><a href="#mg_calendar">Read More</a></div>'
   ),
   'jQuery User' => array(
     'thumb' => 'assets/images/mg_user/user_login.jpg',
-    'p' => 'jQuery User'
+    'p' => '<div class="scroll-to-section"><a href="#mg_user">Read More</a></div>'
   ),
   'Tammi' => array(
     'thumb' => 'assets/images/tammi_landing_page/thumb.jpg',
@@ -330,7 +327,7 @@ $projects_list = array(
   ),
   'Alcohol Screening' => array(
     'thumb' => 'assets/images/alcoholscreening_desktop/thumb.jpg',
-    'p' => 'Tammi'
+    'p' => '<div class="scroll-to-section"><a href="#alcohol_screening">Read More</a></div>'
   ),
   'Help & Hope' => array(
     'thumb' => 'assets/images/sms_hxh/thumb_hxh.jpg',
@@ -363,7 +360,7 @@ foreach ($projects_list as $name => $proj) {
   </section>
 
 
-  <section class="section video" data-section="projects_1">
+  <section class="section video" data-section="alcohol_screening">
     <div class="container">
       <div class="row">
         <div class="col-md-6">
@@ -436,7 +433,7 @@ foreach ($projects_list as $name => $proj) {
     <p>&nbsp;</p><p>&nbsp;</p>
 
     <!-- tammi_landing_page -->
-    <section class="section video" data-section="tammi_landing_page">
+  <section class="section video" data-section="tammi_landing_page">
     <div class="container">
       <div class="row">
         <div class="col-md-6 align-self-center">
@@ -464,11 +461,11 @@ foreach ($projects_list as $name => $proj) {
           </div>
       </div>
     </div>
-    </section>
+  </section>
 
-     
-    <!-- mg_calendar -->
-    <div class="container" data-section="mg_calendar">
+  <!-- mg_calendar -->
+  <section class="section video" data-section="mg_calendar">
+    <div class="container">
       <div class="row">
       <div class="col-md-6">
         <div class="left-content">
@@ -498,36 +495,40 @@ foreach ($projects_list as $name => $proj) {
       
       </div>
     </div>
-
-    
-    <!-- mg_user -->
-    <div class="container" data-section="mg_user">
-      <div class="row">
-        <div class="col-md-6 align-self-center">
-          <div class="left-content">
-           
-            <h4>jQuery User Management</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+    </section>
+     
+  <!-- mg_user -->
+  <section class="section video" data-section="mg_user">
+    <div class="container">
+        <div class="row">
+          <div class="col-md-6 align-self-center">
+            <div class="left-content">
             
-            <div class="main-button"><a rel="nofollow" href="https://alcoholscreening.org" target="_BLANK">View Live Site</a></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="left-content">
-            <article class="video-item">
-            
-            <?php 
-            $atts = array(
-              'project_folder' => 'mg_user',
-              'project_name' => 'jQuery User'
-            );
+              <h4>jQuery User Management</h4>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
               
-            echo gallery_function($atts);
-            ?>
-            </article>
+              <div class="main-button"><a rel="nofollow" href="https://alcoholscreening.org" target="_BLANK">View Live Site</a></div>
+            </div>
           </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <article class="video-item">
+              
+              <?php 
+              $atts = array(
+                'project_folder' => 'mg_user',
+                'project_name' => 'jQuery User'
+              );
+                
+              echo gallery_function($atts);
+              ?>
+              </article>
+            </div>
+        </div>
       </div>
-    </div>
+    </section>
+
+      
 </section>
 
 

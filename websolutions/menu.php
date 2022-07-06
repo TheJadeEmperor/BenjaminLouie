@@ -4,10 +4,7 @@ function gallery_function($atts) {
     $anime = $atts['project_folder'];
     $postTitle = $atts['project_name'];
 
-//    $site_url = get_site_url();
-//    $postTitle = get_the_title(); 
     $animeID = str_replace('/', '_', $anime);
-//    echo $postTitle.' '.$anime; 
 
 	$directory = 'assets/images/'.$anime;
 
@@ -39,6 +36,9 @@ function gallery_function($atts) {
 
 //    print_r($small); exit;
 
+    //check for thumbnails
+    if(is_dir($directory.'/thumbnails')) $showThumbnails = 1;
+
     $galleryContent .= '
 	<table><tr valign="top"><td>
 	<ul class="hoverbox">';
@@ -47,7 +47,12 @@ function gallery_function($atts) {
 		//$num = $num + 1; //offset the 0 element    
 		list($name, $ext) = explode('.', $picture); 
 		
-            $showThisImg = $readThisImg = $directory.'/'.$picture;
+            if($showThumbnails) {
+                $readThisImg = $directory.'/'.$picture;
+                $showThisImg = $directory.'/thumbnails/'.$picture;
+            }
+            else    
+                $showThisImg = $readThisImg = $directory.'/'.$picture;
 			//$showThisImg = $site_url.'/'.$directory.'/'.$picture;
 			
 			if(file_exists($readThisImg)) {
@@ -81,7 +86,7 @@ function gallery_function($atts) {
  
     //display the modal elements
     $galleryContent .=  '<div id="'.$animeID.'" class="modal">
-    <span class="close cursor" onclick="closeModal(\''.$anime.'\')">&times;</span>
+    <a class="close cursor" onclick="closeModal(\''.$anime.'\')">&times;</a>
     <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
     <div class="modal-content">';

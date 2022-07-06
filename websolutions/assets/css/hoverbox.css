@@ -49,17 +49,16 @@ body {
 /* The Close Button */
 
 .modal .close {
-    color: white;
+    color: rgb(209, 209, 209);
     position: absolute;
     top: 20px;
     right: 25px;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: bold;
 }
 
-.modal .close:hover,
-.modal .close:focus {
-    color: #999;
+.modal .close:hover {
+    color: rgb(255, 255, 255);
     text-decoration: none;
     cursor: pointer;
 }
