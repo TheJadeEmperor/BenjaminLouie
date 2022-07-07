@@ -3,6 +3,27 @@ include('menu.php');
 
 $portFolder = 'assets/images/portfolio/';
 
+
+$carousel_personal = array(
+  'CodeGeass Website' => array(
+    'p' => 'A personal website I made for my favorite anime',
+    'img' => $portFolder.'codegeass.us.jpg',
+    'github' => 'https://github.com/TheJadeEmperor/CodeGeass.us'
+  ),
+  'CodeGeass Website v2' => array(
+    'p' => 'A personal website I made for my favorite anime',
+    'img' => $portFolder.'codegeass1.jpg'
+  ),
+  'CodeGeass Forum 1' => array(
+    'p' => 'A PHP forum run using SimpleMachines',
+    'img' => $portFolder.'codegeass.forum1.jpg'
+  ),
+  'CodeGeass Forum 2' => array(
+    'p' => 'Version 2 of the Forum',
+    'img' => $portFolder.'codegeass.forum2.jpg'
+  ),
+);
+
 $carousel_pro = array(
   'Partnership for DrugFree Kids' => array(
     'p' => 'A national non-profit org, website run on Wordpress and Rackspace',
@@ -13,7 +34,7 @@ $carousel_pro = array(
     'img' => $portFolder.'COA.jpg'
   ),
   'Style Edit' => array(
-    'p' => 'A magazine owned by Mana Products. Photoshop files were given as specs and everything had to be pixel perfect.',
+    'p' => 'A magazine owned by Mana Products. Photoshop files were given as specs and everything was coded based on specs',
     'img' => $portFolder.'styleedit.jpg'
   ),
   'TGI Office Automation' => array(
@@ -22,8 +43,8 @@ $carousel_pro = array(
   ),
 );
 
-  $carousel_client = array(
-    'BestPayingSites' => array(
+$carousel_client = array(
+    'Best Paying Sites' => array(
       'p' => 'A client wanted to make a sales page to sell ebooks. Integrated with Paypal IPN (Instant Payment Notification) API',
       'img' => $portFolder.'bestpayingsites.jpg',
       'github' => 'https://github.com/TheJadeEmperor/BestPayingSites'
@@ -38,37 +59,25 @@ $carousel_pro = array(
       'img' => $portFolder.'pxo.jpg',
       'github' => 'https://github.com/TheJadeEmperor/PXOrigin'
     ),
-    'CodeGeass Website' => array(
-      'p' => 'A personal website I made for my favorite anime',
-      'img' => $portFolder.'codegeass.us.jpg',
-      'github' => 'https://github.com/TheJadeEmperor/CodeGeass.us'
-    ),
-    'CodeGeass Website v2' => array(
-      'p' => 'A personal website I made for my favorite anime',
-      'img' => $portFolder.'codegeass1.jpg'
-    ),
-    'CodeGeass Forum 1' => array(
-      'p' => 'A PHP forum run using SimpleMachines',
-      'img' => $portFolder.'codegeass.forum1.jpg'
-    ),
-    'CodeGeass Forum 2' => array(
-      'p' => 'Version 2 of the Forum',
-      'img' => $portFolder.'codegeass.forum2.jpg'
-    ),
     'World Wide Video' => array(
       'p' => 'Made for a client who sells security cameras',
       'img' => $portFolder.'wwv.jpg'
     ),
-    'AnimeFavorite' => array(
+    'Anime Favorite' => array(
       'p' => 'An anime site made for a client',
       'img' => $portFolder.'animefavorite.jpg'
     ),
-    'AnimeFanservice' => array(
+    'Anime Fanservice' => array(
       'p' => 'An anime site made for fun. Warning: NSFW',
       'img' => $portFolder.'animefanservice.jpg',
       'github' => 'https://github.com/TheJadeEmperor/AnimeFanservice.org'
+    ),
+    'Pengea' => array(
+      'p' => 'A client wanted a minimalist site to spread awareness about climate change',
+      'img' => $portFolder.'pengea_1.png',
     )
   );
+
 
 ?>
  <!--header-->
@@ -82,6 +91,7 @@ $carousel_pro = array(
         <li><a href="#section1">Home</a></li>
         <li class="has-submenu"><a href="#port_pro">Portfolio</a>
           <ul class="sub-menu">
+            <li><a href="#port_personal">Personal</a></li>
             <li><a href="#port_pro">Professional</a></li>
             <li><a href="#port_client">Client</a></li>
           </ul>
@@ -225,6 +235,36 @@ $carousel_pro = array(
     </div>
   </section>
 
+  <section class="section courses" data-section="port_personal">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Personal Portfolio</h2>
+          </div>
+        </div>
+
+        <div class="owl-carousel owl-theme">
+
+        <?php
+        foreach($carousel_personal as $h4 => $val) {
+          echo '<div class="item">
+            <a href="'.$val['img'].'" class="external" target="_BLANK"><img src="'.$val['img'].'" alt="'.$h4.'"></a>
+            <div class="down-content">
+            <h4>'.$h4.'</h4>
+            <p>'.$val['p'].'</p>';
+
+            echo '
+          </div>
+          </div>';
+        }
+        ?>
+         
+        </div>
+      </div>
+    </div>
+  </section>
+  
 
   <section class="section courses" data-section="port_pro">
     <div class="container-fluid">
@@ -288,52 +328,7 @@ $carousel_pro = array(
       </div>
     </div>
   </section>
-<!--
-  <section class="section contact" data-section="section6">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
-          </div>
-        </div>
-        <div class="col-md-6">
-         
-        <form id="contact" action="" method="post">
-            <div class="row">
-              <div class="col-md-6">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-6">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
-                  </fieldset>
-                </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
-                </fieldset>
-              </div>
-              <div class="col-md-12">
-                <fieldset>
-                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
-                </fieldset>
-              </div>
-            </div>
-          </form>
-        </div>
-        <div class="col-md-6">
-          <div id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.0259022289138!2d-73.9896948852854!3d40.6954271793337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a4a6c47643b%3A0x284552dca0b97d69!2sNew%20York%20City%20College%20of%20Technology!5e0!3m2!1sen!2sus!4v1656563562452!5m2!1sen!2sus" width="100%" height="422px" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-            -->
- 
+
 <?php 
 include('footer.html');
 ?>

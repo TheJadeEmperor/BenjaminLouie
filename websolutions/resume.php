@@ -50,7 +50,6 @@ include('menu.php');
   </section>
   <!-- ***** Main Banner Area End ***** -->
 
-
   <section class="features">
     <div class="container">
       <div class="row">
@@ -327,15 +326,16 @@ $projects_list = array(
   ),
   'Alcohol Screening' => array(
     'thumb' => 'assets/images/alcoholscreening_desktop/thumb.jpg',
-    'p' => '<div class="scroll-to-section"><a href="#alcohol_screening">Read More</a></div>'
+    'p' => '<p>Built using Wordpress, Advanced Custom Fields, PHP & MySQL. Desktop & mobile screenshots included.</p>
+    <div class="scroll-to-section"><a href="#alcohol_screening">Read More</a></div>'
   ),
   'Help & Hope' => array(
     'thumb' => 'assets/images/sms_hxh/thumb_hxh.jpg',
-    'p' => 'Tammi'
+    'p' => 'H & H'
   ),
   'Heroin Hub' => array(
     'thumb' => 'assets/images/sms_hxh/thumb_heroin.jpg',
-    'p' => 'Tammi'
+    'p' => 'Heroin Hub'
   ),
 );
 
@@ -479,6 +479,15 @@ foreach ($projects_list as $name => $proj) {
               
             echo gallery_function($atts);
             ?>
+
+            <h4>View Specs</h4>
+
+            <a href="assets/images/mg_calendar/modernguild_calendar.pdf" target="_BLANK">View modernguild_calendar.pdf</a>
+
+            <h4>View Wireframes</h4>
+
+            <a href="assets/images/mg_calendar/scheduling_wireframe.pdf" target="_BLANK">View scheduling_wireframe.pdf</a>
+
             </article>
         </div>
         </div>
@@ -507,7 +516,7 @@ foreach ($projects_list as $name => $proj) {
               <h4>jQuery User Management</h4>
               <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
               
-              <div class="main-button"><a rel="nofollow" href="https://alcoholscreening.org" target="_BLANK">View Live Site</a></div>
+              <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/MG_User" target="_BLANK">View Github</a></div>
             </div>
           </div>
           <div class="col-md-6">
@@ -522,13 +531,14 @@ foreach ($projects_list as $name => $proj) {
                 
               echo gallery_function($atts);
               ?>
+              <h4>View Specs</h4>
+              <a href="assets/images/mg_user/modernguild_user.pdf">modernguild_user.pdf</a>
               </article>
             </div>
         </div>
       </div>
     </section>
 
-      
 </section>
 
 
