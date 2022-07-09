@@ -34,7 +34,7 @@ function gallery_function($atts) {
     }
     unset($small[0]); //delete 0 element
 
-//    print_r($small); exit;
+    //print_r($small); exit;
 
     //check for thumbnails
     if(is_dir($directory.'/thumbnails')) $showThumbnails = 1;
@@ -106,7 +106,6 @@ function gallery_function($atts) {
 
     return $galleryContent;
 }
-
 
 ?>
 

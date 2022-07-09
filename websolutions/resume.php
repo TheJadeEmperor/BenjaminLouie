@@ -57,12 +57,12 @@ include('menu.php');
           <div class="features-post">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-pencil"></i>Clients</h4>
+                <h4><i class="fa fa-graduation-cap"></i>Senior Project</h4>
               </div>
               <div class="content-hide">
-                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section2">More Info.</a></div>
+                <p>Designed a lego vehcile to run through a maze and disarm a bomb, programmed in Robolab. Click below to view wireframes in AutoCAD.</p>
+                <p class="hidden-sm">Designed a lego vehcile to run through a maze and disarm a bomb, programmed in Robolab. Click below to view wireframes in AutoCAD.</p>
+                <div><a href="assets/images/robolab/robolab_1.jpg" target="_BLANK">View Specs 1</a> &nbsp; <a href="assets/images/robolab/robolab_2.jpg" target="_BLANK">View Specs 2</a></div>
             </div>
             </div>
           </div>
@@ -71,12 +71,13 @@ include('menu.php');
           <div class="features-post second-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>Full Stack Teacher</h4>
+                <h4><i class="fa fa-pencil"></i>Full Stack Teacher</h4>
               </div>
               <div class="content-hide">
-                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section3">Details</a></div>
+                <p>Watch me teach college students how to do full stack coding</p>
+                <p class="hidden-sm">Watch me teach college students how to do full stack coding</p>
+
+                <div class="scroll-to-section"><a href="#top_classes">Featured Classes</a><a href="#all_classes">All Classes</a></div>
             </div>
             </div>
           </div>
@@ -85,12 +86,12 @@ include('menu.php');
           <div class="features-post third-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-book"></i>Projects</h4>
+                <h4><i class="fa fa-folder"></i>Resume</h4>
               </div>
               <div class="content-hide">
-                <p>Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet. Donec maximus elementum ex. Cras convallis ex rhoncus, laoreet libero eu, vehicula libero.</p>
-                <p class="hidden-sm">Curabitur id eros vehicula, tincidunt libero eu, lobortis mi. In mollis eros a posuere imperdiet.</p>
-                <div class="scroll-to-section"><a href="#section4">Read More</a></div>
+                <p><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf" target="_BLANK"><img src="assets/images/resume/thumbnail.png"><br><br>Download or View PDF</a></p>
+
+                <p class="hidden-sm"><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf"><img src="assets/images/resume/thumbnail.png"  target="_BLANK"><br><br>Download or View PDF</a></p> 
             </div>
             </div>
           </div>
@@ -237,67 +238,6 @@ include('menu.php');
       </div>
     </div>
   </section>
-
-<!--
-  <section class="section why-us" data-section="section2">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Why choose Grad School?</h2>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <div id='tabs'>
-            <ul>
-              <li><a href='#tabs-1'>Best Education</a></li>
-              <li><a href='#tabs-2'>Top Management</a></li>
-              <li><a href='#tabs-3'>Quality Meeting</a></li>
-             
-            </ul>
-            <section class='tabs-content'>
-              <article id='tabs-1'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-01.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <h4>Best Education</h4>
-                    <p>Grad School is free educational HTML template with Bootstrap 4.5.2 CSS layout. Feel free to use it for educational or commercial purposes. You may want to make <a href="https://paypal.me/templatemo" target="_parent" rel="sponsored">a little donation</a> to TemplateMo. Please tell your friends about us. Thank you.</p>
-                  </div>
-                </div>
-              </article>
-              <article id='tabs-2'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-02.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <h4>Top Level</h4>
-                    <p>You can modify this HTML layout by editing contents and adding more pages as you needed. Since this template has options to add dropdown menus, you can put many HTML pages.</p> 
-                    <p>Suspendisse tincidunt, magna ut finibus rutrum, libero dolor euismod odio, nec interdum quam felis non ante.</p>
-                  </div>
-                </div>
-              </article>
-              <article id='tabs-3'>
-                <div class="row">
-                  <div class="col-md-6">
-                    <img src="assets/images/choose-us-image-03.png" alt="">
-                  </div>
-                  <div class="col-md-6">
-                    <h4>Quality Meeting</h4>
-                    <p>You are NOT allowed to redistribute this template ZIP file on any template collection website. However, you can use this template to convert into a specific theme for any kind of CMS platform such as WordPress. For more information, you shall <a rel="nofollow" href="https://templatemo.com/contact" target="_parent">contact TemplateMo</a> now.</p>
-                  </div>
-                </div>
-              </article>
-            </section>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
--->
-
  
   <section class="section courses" data-section="projects">
     <div class="container-fluid">
@@ -320,14 +260,19 @@ $projects_list = array(
     'thumb' => 'assets/images/mg_user/user_login.jpg',
     'p' => '<div class="scroll-to-section"><a href="#mg_user">Read More</a></div>'
   ),
-  'Tammi' => array(
+  'Tammi Landing Page' => array(
     'thumb' => 'assets/images/tammi_landing_page/thumb.jpg',
-    'p' => 'Tammi'
+    'p' => '<div class="scroll-to-section"><a href="#tammi_landing_page">Read More</a></div>'
   ),
   'Alcohol Screening' => array(
     'thumb' => 'assets/images/alcoholscreening_desktop/thumb.jpg',
     'p' => '<p>Built using Wordpress, Advanced Custom Fields, PHP & MySQL. Desktop & mobile screenshots included.</p>
     <div class="scroll-to-section"><a href="#alcohol_screening">Read More</a></div>'
+  ),
+  'Online Course for Anti-drug Use' => array(
+    'thumb' => 'assets/images/portfolio/online_course.jpg',
+    'p' => '<p>Landing page made for anti-drug online course, compatible with Wordpress</p>
+    <a href="https://github.com/TheJadeEmperor/LandingPageOnlineCourse" target="_BLANK">View Github</a>'
   ),
   'Help & Hope' => array(
     'thumb' => 'assets/images/sms_hxh/thumb_hxh.jpg',
@@ -337,6 +282,7 @@ $projects_list = array(
     'thumb' => 'assets/images/sms_hxh/thumb_heroin.jpg',
     'p' => 'Heroin Hub'
   ),
+
 );
 
 foreach ($projects_list as $name => $proj) {
@@ -349,16 +295,13 @@ foreach ($projects_list as $name => $proj) {
   </div>
 </div>';
 }
-
-
         ?>
         
-             </div>         
+          </div>         
         </div>
       </div>
     </div>
   </section>
-
 
   <section class="section video" data-section="alcohol_screening">
     <div class="container">
@@ -394,8 +337,7 @@ foreach ($projects_list as $name => $proj) {
 
    
   <section class="section video" data-section="">
-  
-     <!-- alcohol_screening mobile -->
+    <!-- alcohol_screening mobile -->
     <div class="container">
       <div class="row"> 
       <div class="col-md-6">
@@ -440,9 +382,13 @@ foreach ($projects_list as $name => $proj) {
           <div class="left-content">
            
             <h4>Tammi Landing Page</h4>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            <p>Project TAMMI is a research study that tests whether different types of text messages and assessments are helpful to people who want to cut down on their drinking. This project is being conducted through the Partnership for Drug-Free Kids and the Feinstein Institute for Medical Research at Northwell Health, and is sponsored by the NIAAA.</p>
+
+            <p>This landing page is completely responsive and mobile friendly, using CSS and Javascript.</p>
             
-            <div class="main-button"><a rel="nofollow" href="https://drugfree.org/tammi" target="_BLANK">View Live Site</a></div>
+            <div class="main-button"><a rel="nofollow" href="https://drugfree.org/tammi" target="_BLANK">View Live Site</a> 
+
+            <a rel="nofollow" href="https://github.com/TheJadeEmperor/drugfree_tammi" target="_BLANK">View Github</a></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -479,6 +425,7 @@ foreach ($projects_list as $name => $proj) {
               
             echo gallery_function($atts);
             ?>
+            <p>&nbsp;</p>
 
             <h4>View Specs</h4>
 
@@ -495,13 +442,20 @@ foreach ($projects_list as $name => $proj) {
           <div class="col-md-6">
             <div class="left-content">
             <h4>jQuery Calendar</h4>
-            <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
+            <p>Scheduling features<br>
+• Student schedules all 5 meetings in the same screen, for IE meetings it’s 3 meetings at
+once<br>
+• For meeting 1 you click on the calendar, open the pop up and select a time from the
+timepicker, and the selected date/time appears on the left module<br>
+• Then meeting 2 is highlighted, which is the active meeting. You do the same with
+meeting 1. Then meeting 3 is highlighted.<br>
+• When you’re done you can add a comment to your coach and click the submit button
+and save the meetings to the database 
+</p>
               
               <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/MG_Calendar" target="_BLANK">View Github</a></div>
             </div>
-          
           </div>
-      
       </div>
     </div>
     </section>
@@ -514,7 +468,12 @@ foreach ($projects_list as $name => $proj) {
             <div class="left-content">
             
               <h4>jQuery User Management</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+              <p>User Dashboard Features<br>
+• Top left corner - user can edit their own profile - jQuery pop up
+• Edit their schedule - data is linked with their calendar<br>
+• View their inbox and check for messages and send messages to other users<br>
+• Reminder “ribbons” with different colors<br>
+• Upcoming meetings tab - jQuery dataTable </p>
               
               <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/MG_User" target="_BLANK">View Github</a></div>
             </div>
@@ -531,8 +490,9 @@ foreach ($projects_list as $name => $proj) {
                 
               echo gallery_function($atts);
               ?>
+              <p>&nbsp;</p>
               <h4>View Specs</h4>
-              <a href="assets/images/mg_user/modernguild_user.pdf">modernguild_user.pdf</a>
+              <a href="assets/images/mg_user/modernguild_user.pdf"  target="_BLANK">modernguild_user.pdf</a>
               </article>
             </div>
         </div>
