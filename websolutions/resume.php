@@ -11,9 +11,13 @@ include('menu.php');
     <ul class="main-menu">
       <li><a href="./#section1">Home</a></li>
 
-      <li><a href="#stack">Tech Stack</a></li>
-
       <li class="has-submenu"><a href="#projects">Projects</a>
+        <ul class="sub-menu">
+            <li><a href="#ecourse">More Projects</a></li>
+        </ul>
+      </li>
+
+      <li class="has-submenu"><a href="#projects">Details</a>
         <ul class="sub-menu">
           <li><a href="#alcohol_screening">Alcohol Screening</a></li>
           <li><a href="#tammi_landing_page">Tammi Landing Page</a></li>
@@ -99,28 +103,7 @@ include('menu.php');
       </div>
     </div>
   </section>
-
-
-  <section class="section why-us" data-section="stack">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div class="section-heading">
-            <h2>Resume</h2>
-          </div>
-        </div>
-        <div class="col-md-12">
-          <section>
-          <center>
-          <p><a href="assets/images/resume/Louie.Benjamin.Wordpress.pdf"><img src="assets/images/resume/thumbnail.png"><br><br>Download or View PDF</a></p>
-        
-          </center>
-          </section>
-        </div>
-      </div>
-    </div>
-  </section>
-
+ 
   <section class="section video" data-section="top_classes">
     <div class="col-md-12">
           <div class="section-heading">
@@ -219,8 +202,19 @@ include('menu.php');
       'thumb' => 'thumb_0630.jpg',
       'p' => 'CSS Exercises & CSS Display-Block Model'
     ),
+    '0705' => array(
+      'url' => 'https://www.youtube.com/watch?v=kdBrqYEcLTk',
+      'thumb' => 'thumb_0705.jpg',
+      'p' => 'Github Repo, Clone, Branches, Conflicts'
+    ),
+    '0707' => array(
+      'url' => 'https://www.youtube.com/watch?v=SuKfRuLi-S4',
+      'thumb' => 'thumb_0707.jpg',
+      'p' => 'Rem fonts, video tag, responsive design'
+    ),
   );
 
+   
 
   foreach($coding_video as $code) {
     echo '
@@ -272,14 +266,19 @@ $projects_list = array(
   'Online Course for Anti-drug Use' => array(
     'thumb' => 'assets/images/portfolio/online_course.jpg',
     'p' => '<p>Landing page made for anti-drug online course, compatible with Wordpress</p>
-    <a href="https://github.com/TheJadeEmperor/LandingPageOnlineCourse" target="_BLANK">View Github</a>'
+    <div class="scroll-to-section"><a href="#ecourse">Read More</a></div>'
+  ),
+  'Breaking Points' => array(
+    'thumb' => 'assets/images/portfolio/breakingpoints.jpg',
+    'p' => 'Breaking Points landing page used for meeting with Google
+    <div class="scroll-to-section"><a href="#ecourse">Read More</a></div>'
   ),
   'Help & Hope' => array(
-    'thumb' => 'assets/images/sms_hxh/thumb_hxh.jpg',
+    'thumb' => 'assets/images/portfolio/thumb_hxh.jpg',
     'p' => 'H & H'
   ),
   'Heroin Hub' => array(
-    'thumb' => 'assets/images/sms_hxh/thumb_heroin.jpg',
+    'thumb' => 'assets/images/portfolio/thumb_heroin.jpg',
     'p' => 'Heroin Hub'
   ),
 
@@ -469,11 +468,11 @@ and save the meetings to the database
             
               <h4>jQuery User Management</h4>
               <p>User Dashboard Features<br>
-• Top left corner - user can edit their own profile - jQuery pop up
-• Edit their schedule - data is linked with their calendar<br>
-• View their inbox and check for messages and send messages to other users<br>
-• Reminder “ribbons” with different colors<br>
-• Upcoming meetings tab - jQuery dataTable </p>
+              • Top left corner - user can edit their own profile - jQuery pop up
+              • Edit their schedule - data is linked with their calendar<br>
+              • View their inbox and check for messages and send messages to other users<br>
+              • Reminder “ribbons” with different colors<br>
+              • Upcoming meetings tab - jQuery dataTable </p>
               
               <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/MG_User" target="_BLANK">View Github</a></div>
             </div>
@@ -498,10 +497,86 @@ and save the meetings to the database
         </div>
       </div>
     </section>
+ 
+  <!-- ecourse & breaking points -->
+  <section class="section video" data-section="ecourse">
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4>eCourse Landing Page</h4>
+             
+            <?php 
+            $atts = array(
+              'project_folder' => 'ecourse',
+              'project_name' => 'ecourse landing page'
+            );
+              
+            echo gallery_function($atts);
+            ?> 
+            
+            <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/DrugFree_EcourseLandingPage" target="_BLANK">View Github</a></div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4>BreakingPoints Landing Page</h4>
 
-</section>
+            <?php 
+            $atts = array(
+              'project_folder' => 'breakingpoints',
+              'project_name' => 'breakingpoints'
+            );
+              
+            echo gallery_function($atts);
+            ?>
 
+            <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/DrugFree_BreakingPoints" target="_BLANK">View Github</a></div>
 
+          </div>
+        </div>
+    </div>
+
+    <p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p>
+
+    <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4>Search and Rescue USA</h4>
+             
+            <?php 
+            $atts = array(
+              'project_folder' => 'search',
+              'project_name' => 'search and rescue'
+            );
+              
+            echo gallery_function($atts);
+            ?>
+            
+            <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/SearchAndRescueUsa.org" target="_BLANK">View Github</a></div>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <h4>SMS Help & Hope</h4>
+             
+            <?php 
+            $atts = array(
+              'project_folder' => 'help_and_hope',
+              'project_name' => 'SMS Help & Hope'
+            );
+              
+            echo gallery_function($atts);
+            ?>
+            
+            <div class="main-button"><a rel="nofollow" href="https://github.com/TheJadeEmperor/DrugFree_EcourseLandingPage" target="_BLANK">View Github</a></div>
+          </div>
+        </div>
+       
+    </div>
+  </section>
+
+  </section>
 <?php 
 include('footer.html');
 ?>

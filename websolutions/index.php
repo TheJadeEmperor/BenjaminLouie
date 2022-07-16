@@ -49,7 +49,7 @@ $carousel_client = array(
       'img' => $portFolder.'bestpayingsites.jpg',
       'github' => 'https://github.com/TheJadeEmperor/BestPayingSites'
     ),
-    'Neobux Ulimate Strategy' => array(
+    'Neobux Ultimate Strategy' => array(
       'p' => 'A sales page and membership site run in PHP and MySQL',
       'img' => $portFolder.'nus.jpg',
       'github' => 'https://github.com/TheJadeEmperor/NeobuxUltimateStrategy'

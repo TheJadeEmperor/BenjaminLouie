@@ -159,6 +159,10 @@ img.hover-shadow {
 
 /* Hoverbox Code */
 
+.hoverbox_container {
+    margin: 60px 0;
+}
+
 img {
     max-width: unset;
 }

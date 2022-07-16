@@ -40,7 +40,7 @@ function gallery_function($atts) {
     if(is_dir($directory.'/thumbnails')) $showThumbnails = 1;
 
     $galleryContent .= '
-	<table><tr valign="top"><td>
+	<table class="hoverbox_container"><tr valign="top"><td>
 	<ul class="hoverbox">';
     
 	foreach($small as $num => $picture) {
