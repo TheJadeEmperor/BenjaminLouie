@@ -103,7 +103,59 @@ include('menu.php');
       </div>
     </div>
   </section>
- 
+
+  
+<?php
+$coding_video = array(
+  '0614' => array(
+    'url' => 'https://vimeo.com/736565575',
+    'thumb' => 'thumb_0614.jpg', 
+    'p' => 'Intro to Bash'
+  ),
+  '0616' => array(
+    'url' => 'https://vimeo.com/736565941',
+    'thumb' => 'thumb_0616.jpg', 
+    'p' => 'HTML Basics & HTML Forms'
+  ),
+  '0621' => array(
+    'url' => 'https://vimeo.com/736566268',
+    'thumb' => 'thumb_0621.jpg',
+    'p' => 'HTML & Basic CSS'
+  ),
+  '0623' => array(
+    'url' => 'https://vimeo.com/736566659',
+    'thumb' => 'thumb_0623.jpg',
+    'p' => 'Basic CSS & Mockups'
+  ),
+  '0628' => array(
+    'url' => 'https://vimeo.com/736566931',
+    'thumb' => 'thumb_0628.jpg',
+    'p' => 'CSS Exercises & CSS Box Model & Trello'
+  ),
+  '0630' => array(
+    'url' => 'https://vimeo.com/736567282',
+    'thumb' => 'thumb_0630.jpg',
+    'p' => 'CSS Exercises & CSS Display-Block Model'
+  ),
+  '0705' => array(
+    'url' => 'https://vimeo.com/736567639',
+    'thumb' => 'thumb_0705.jpg',
+    'p' => 'Github Repo, Clone, Branches, Conflicts'
+  ),
+  '0707' => array(
+    'url' => 'https://vimeo.com/750203659',
+    'thumb' => 'thumb_0707.jpg',
+    'p' => 'Rem fonts, video tag, responsive design'
+  ),
+  '0714' => array(
+    'url' => 'https://vimeo.com/750203659',
+    'thumb' => 'thumb_0714.jpg',
+    'p' => '0714 - Javascript & CSS menus'
+  ),
+);
+
+?>
+
   <section class="section video" data-section="top_classes">
     <div class="col-md-12">
           <div class="section-heading">
@@ -118,7 +170,7 @@ include('menu.php');
             <h4><em>CSS Blocks</em> - Display block, inline, and inline-block  </h4>
             <p>In this lesson, I go over the differences between block, inline, and inline-block, as well as apply them in practice. Also, I analyze sample websites submitted by my students and explain their code, as well as duplicate the website using the code I taught in class.</p>
             <p>What makes me different than other teachers is that I teach not only theory, but practice using real world examples. </p>
-            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/watch?v=gboHYbaJs1A" target="_parent">Watch on Youtube</a></div>
+            <div class="main-button"><a rel="nofollow" href="<?=$coding_video['0623']['url']?>" target="_blank">Watch on Vimeo</a></div>
           </div>
         </div>
         <div class="col-md-6">
@@ -127,7 +179,7 @@ include('menu.php');
               <h4>CSS Blocks & CSS Exercises</h4>
             </div>
             <figure>
-              <a href="https://www.youtube.com/watch?v=gboHYbaJs1A" class="play"><img src="assets/video/thumb_0623.jpg"></a>
+              <a href="<?=$coding_video['0623']['url']?>" class="play"><img src="assets/video/<?=$coding_video['0623']['thumb']?>?>"></a>
             </figure>
           </article>
         </div>
@@ -144,7 +196,7 @@ include('menu.php');
               <h4>Intro to Bash</h4>
             </div>
             <figure>
-              <a href="https://www.youtube.com/watch?v=w33oS9eSi8A" class="play"><img src="assets/video/thumb_0616.jpg"></a>
+              <a href="<?=$coding_video['0614']['url']?>" class="play"><img src="assets/video/<?=$coding_video['0614']['thumb']?>"></a>
             </figure>
           </article>
       </div>
@@ -154,7 +206,7 @@ include('menu.php');
             <h4>Bash Programming & How the Internet Works</h4>
             <p>In this lesson, I introduce my students to the concept of the internet and how websites work, and then I teach them how to work their way around linux using bash.</p>
             <p>Unlike other professors, I have worked in several companies before becoming a teacher, so I teach from experience. If you want to learn how to code, <a href="./#section6">contact us here</a>.</p>
-            <div class="main-button"><a rel="nofollow" href="https://www.youtube.com/watch?v=w33oS9eSi8A" target="_parent">Watch on Youtube</a></div>
+            <div class="main-button"><a rel="nofollow" href="<?=$coding_video['0614']['url']?>" target="_blank">Watch on Vimeo</a></div>
           </div>
         </div>
         
@@ -162,7 +214,36 @@ include('menu.php');
     </div>
   </section>
 
-  
+  <section class="section video" data-section="top_classes">
+    
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>Teaching Javascript and the DOM</span>
+            <h4>Introduction to <em>Javacript</em></h4> 
+            <p>In this class I introduce <em>Javascript</em> to my students. We went over Javascript syntax, debugging to the console, as well as logic statements such as for loops, if statements, while loops, and arrays.</p>
+
+            <p>What makes me different than other teachers is that I teach not only theory, but practice using real world examples. </p>
+            <div class="main-button"><a rel="nofollow" href="<?=$coding_video['0623']['url']?>" target="_blank">Watch on Vimeo</a></div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <article class="video-item">
+            <div class="video-caption">
+              <h4>Introduction to <em>Javacript</em></h4>
+            </div>
+            <figure>
+              <a href="<?=$coding_video['0714']['url']?>" class="play"><img src="assets/video/<?=$coding_video['0714']['thumb']?>?>"></a>
+            </figure>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+     
+
+
   <section class="section why-us" data-section="all_classes">
     <div class="container">
       <div class="row">
@@ -173,61 +254,20 @@ include('menu.php');
         </div>
 
         <div class="col-md-12 coding_thumbnails">
-<?php
+        <?php
 
+foreach($coding_video as $code) {
+  echo '
+  <div class="coding_video">
+    <figure>
+      <a href="'.$code['url'].'" class="play"><img src="assets/video/'.$code['thumb'].'"></a>
+    </figure>
+    <p>'.$code['p'].'</p>
+  </div>';
+}
 
-  $coding_video = array(
-    '0616' => array(
-      'url' => 'https://www.youtube.com/watch?v=XvOj2Z4ispc',
-      'thumb' => 'thumb_0616.jpg', 
-      'p' => 'HTML Basics & HTML Forms'
-    ),
-    '0621' => array(
-      'url' => 'https://www.youtube.com/watch?v=3QN4p-SGiqA',
-      'thumb' => 'thumb_0621.jpg',
-      'p' => 'HTML & Basic CSS'
-    ),
-    '0623' => array(
-      'url' => 'https://www.youtube.com/watch?v=340XObAYAGo',
-      'thumb' => 'thumb_0623.jpg',
-      'p' => 'Basic CSS & Mockups'
-    ),
-    '0628' => array(
-      'url' => 'https://www.youtube.com/watch?v=_V2Fi65WXkA',
-      'thumb' => 'thumb_0628.jpg',
-      'p' => 'CSS Exercises & CSS Box Model & Trello'
-    ),
-    '0630' => array(
-      'url' => 'https://www.youtube.com/watch?v=gboHYbaJs1A',
-      'thumb' => 'thumb_0630.jpg',
-      'p' => 'CSS Exercises & CSS Display-Block Model'
-    ),
-    '0705' => array(
-      'url' => 'https://www.youtube.com/watch?v=kdBrqYEcLTk',
-      'thumb' => 'thumb_0705.jpg',
-      'p' => 'Github Repo, Clone, Branches, Conflicts'
-    ),
-    '0707' => array(
-      'url' => 'https://www.youtube.com/watch?v=SuKfRuLi-S4',
-      'thumb' => 'thumb_0707.jpg',
-      'p' => 'Rem fonts, video tag, responsive design'
-    ),
-  );
-
-   
-
-  foreach($coding_video as $code) {
-    echo '
-    <div class="coding_video">
-      <figure>
-        <a href="'.$code['url'].'" class="play"><img src="assets/video/'.$code['thumb'].'"></a>
-      </figure>
-      <p>'.$code['p'].'</p>
-    </div>';
-  }
- 
 ?>   
-  
+
         </div>
       </div>
     </div>
@@ -281,7 +321,6 @@ $projects_list = array(
     'thumb' => 'assets/images/portfolio/thumb_heroin.jpg',
     'p' => 'Heroin Hub'
   ),
-
 );
 
 foreach ($projects_list as $name => $proj) {
