@@ -64,7 +64,7 @@ include('menu.php');
                 <h4><i class="fa fa-graduation-cap"></i>Senior Project</h4>
               </div>
               <div class="content-hide">
-                <p>Designed a lego vehcile to run through a maze and disarm a bomb, programmed in Robolab. Click below to view wireframes in AutoCAD.</p>
+                <p>Designed a lego vehicle to run through a maze and disarm a bomb, programmed in Robolab. Click below to view wireframes in AutoCAD.</p>
                 <p class="hidden-sm">Designed a lego vehcile to run through a maze and disarm a bomb, programmed in Robolab. Click below to view wireframes in AutoCAD.</p>
                 <div><a href="assets/images/robolab/robolab_1.jpg" target="_BLANK">View Specs 1</a> &nbsp; <a href="assets/images/robolab/robolab_2.jpg" target="_BLANK">View Specs 2</a></div>
             </div>
@@ -148,7 +148,7 @@ $coding_video = array(
     'p' => 'Rem fonts, video tag, responsive design'
   ),
   '0714' => array(
-    'url' => 'https://vimeo.com/750203659',
+    'url' => 'https://vimeo.com/750581909',
     'thumb' => 'thumb_0714.jpg',
     'p' => '0714 - Javascript & CSS menus'
   ),

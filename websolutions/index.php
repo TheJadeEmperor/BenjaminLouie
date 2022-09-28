@@ -168,8 +168,8 @@ $carousel_client = array(
                 <h4><i class="fa fa-book"></i>Learn to Code</h4>
               </div>
               <div class="content-hide">
-                <p>Want to learn how to code html, css and other popular languages? We have taught full stack programming at univerities before and now are offering private classes.</p>
-                <p class="hidden-sm">Want to learn how to code html, css and other popular languages? We have taught full stack programming at univerities before and now are offering private classes.</p>
+                <p>Want to learn how to code html, css and other popular languages? We have taught full stack programming at universities before and now are offering private classes.</p>
+                <p class="hidden-sm">Want to learn how to code html, css and other popular languages? We have taught full stack programming at universities before and now are offering private classes.</p>
                 <div><a href="resume.php#top_classes" class="external">Read More</a></div>
             </div>
             </div>
