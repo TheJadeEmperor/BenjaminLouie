@@ -114,7 +114,7 @@ $carousel_client = array(
 
       <div class="video-overlay header-text">
           <div class="caption">
-              <h6>Benjamin Louie</h6>
+              <h6>By Benjamin Louie</h6>
               <h2><em>Portfolio</em> of BL Web Solutions</h2>
               <div class="main-button">
                   <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
