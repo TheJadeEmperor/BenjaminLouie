@@ -69,7 +69,7 @@ $carousel_client = array(
     ),
     'Anime Fanservice' => array(
       'p' => 'An anime site made for fun. Warning: NSFW',
-      'img' => $portFolder.'animefanservice.jpg',
+      'img' => $portFolder.'anime_fanservice.jpg',
       'github' => 'https://github.com/TheJadeEmperor/AnimeFanservice.org'
     ),
     'Pengea' => array(
