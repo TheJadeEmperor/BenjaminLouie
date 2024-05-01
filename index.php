@@ -1,49 +1,49 @@
 <?php
-include('menu.php');
+  include('menu.php');
 
-$portFolder = 'assets/images/portfolio/';
+  $portFolder = 'assets/images/portfolio/';
 
 
-$carousel_personal = array(
-  'CodeGeass Website' => array(
-    'p' => 'A personal website I made for my favorite anime',
-    'img' => $portFolder.'codegeass.us.jpg',
-    'github' => 'https://github.com/TheJadeEmperor/CodeGeass.us'
-  ),
-  'CodeGeass Website v2' => array(
-    'p' => 'A personal website I made for my favorite anime',
-    'img' => $portFolder.'codegeass1.jpg'
-  ),
-  'CodeGeass Forum 1' => array(
-    'p' => 'A PHP forum run using SimpleMachines',
-    'img' => $portFolder.'codegeass.forum1.jpg'
-  ),
-  'CodeGeass Forum 2' => array(
-    'p' => 'Version 2 of the Forum',
-    'img' => $portFolder.'codegeass.forum2.jpg'
-  ),
-);
+  $carousel_personal = array(
+    'CodeGeass Website' => array(
+      'p' => 'A personal website I made for my favorite anime',
+      'img' => $portFolder.'codegeass.us.jpg',
+      'github' => 'https://github.com/TheJadeEmperor/CodeGeass.us'
+    ),
+    'CodeGeass Website v2' => array(
+      'p' => 'A personal website I made for my favorite anime',
+      'img' => $portFolder.'codegeass1.jpg'
+    ),
+    'CodeGeass Forum 1' => array(
+      'p' => 'A PHP forum run using SimpleMachines',
+      'img' => $portFolder.'codegeass.forum1.jpg'
+    ),
+    'CodeGeass Forum 2' => array(
+      'p' => 'Version 2 of the Forum',
+      'img' => $portFolder.'codegeass.forum2.jpg'
+    ),
+  );
 
-$carousel_pro = array(
-  'Partnership for DrugFree Kids' => array(
-    'p' => 'A national non-profit org, website run on Wordpress and Rackspace',
-    'img' => $portFolder.'drugfree.org.jpg'
-  ),
-  'Center to End Addiction' => array(
-    'p' => 'A national non-profit org, website run on Wordpress and AWS',
-    'img' => $portFolder.'COA.jpg'
-  ),
-  'Style Edit' => array(
-    'p' => 'A magazine owned by Mana Products. Photoshop files were given as specs and everything was coded based on specs',
-    'img' => $portFolder.'styleedit.jpg'
-  ),
-  'TGI Office Automation' => array(
-    'p' => 'A national printing company that supplies printers, copiers, etc. to their clients',
-    'img' => $portFolder.'tgioa.com.jpg'
-  ),
-);
+  $carousel_pro = array(
+    'Partnership for DrugFree Kids' => array(
+      'p' => 'A national non-profit org, website run on Wordpress and Rackspace',
+      'img' => $portFolder.'drugfree.org.jpg'
+    ),
+    'Center to End Addiction' => array(
+      'p' => 'A national non-profit org, website run on Wordpress and AWS',
+      'img' => $portFolder.'COA.jpg'
+    ),
+    'Style Edit' => array(
+      'p' => 'A magazine owned by Mana Products. Photoshop files were given as specs and everything was coded based on specs',
+      'img' => $portFolder.'styleedit.jpg'
+    ),
+    'TGI Office Automation' => array(
+      'p' => 'A national printing company that supplies printers, copiers, etc. to their clients',
+      'img' => $portFolder.'tgioa.com.jpg'
+    ),
+  );
 
-$carousel_client = array(
+  $carousel_client = array(
     'Best Paying Sites' => array(
       'p' => 'A client wanted to make a sales page to sell ebooks. Integrated with Paypal IPN (Instant Payment Notification) API',
       'img' => $portFolder.'bestpayingsites.jpg',
@@ -80,6 +80,7 @@ $carousel_client = array(
 
 
 ?>
+
  <!--header-->
  <header class="main-header clearfix" role="header">
     <div class="logo">
@@ -100,7 +101,7 @@ $carousel_client = array(
        
         <li><a href="resume.php" class="external">Resume</a></li>
 
-      <!--  <li><a href="#section6">Contact</a></li>-->
+        <li><a href="#contact">Contact</a></li>
        
       </ul>
     </nav>
@@ -117,7 +118,7 @@ $carousel_client = array(
               <h6>By Benjamin Louie</h6>
               <h2><em>Portfolio</em> of BL Web Solutions</h2>
               <div class="main-button">
-                  <div class="scroll-to-section"><a href="#section2">Discover more</a></div>
+                  <div class="scroll-to-section"><a href="#why_us">Discover more</a></div>
               </div>
           </div>
       </div>
@@ -330,5 +331,5 @@ $carousel_client = array(
   </section>
 
 <?php 
-include('footer.html');
+include('footer.php');
 ?>

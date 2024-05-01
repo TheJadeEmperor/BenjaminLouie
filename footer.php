@@ -1,16 +1,34 @@
-<!--
-  <section class="section contact" data-section="section6">
+<?php
+
+$adminEmail = 'kaiba.corporation.llc@gmail.com';
+
+if($_POST['name']) {
+  $msg = 'Thank you for contacting us. We will get in touch with you shortly.';
+
+  //send mail to admin
+
+}
+
+?>
+  
+  <section class="section contact" data-section="contact" >
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Let’s Keep In Touch</h2>
+            <h2 id="contact">Let’s Keep In Touch</h2>
           </div>
         </div>
         <div class="col-md-6">
-         
-        <form id="contact" action="" method="post">
+        
+        <form id="contact" action="./#contact" method="post">
+            
             <div class="row">
+              <div class="col-md-12">
+                  
+                <p><?=$msg ?></p>
+                   
+              </div>
               <div class="col-md-6">
                   <fieldset>
                     <input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
@@ -18,12 +36,17 @@
                 </div>
                 <div class="col-md-6">
                   <fieldset>
+                    <input name="phone" type="text" class="form-control" id="phone" placeholder="Your Phone #" required="">
+                  </fieldset>
+                </div>
+                <div class="col-md-12">
+                  <fieldset>
                     <input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
                   </fieldset>
                 </div>
               <div class="col-md-12">
                 <fieldset>
-                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+                  <textarea name="message" rows="6" class="form-control" id="message" placeholder="Tell us your business idea or the website you want to update..." required=""></textarea>
                 </fieldset>
               </div>
               <div class="col-md-12">
@@ -42,14 +65,14 @@
       </div>
     </div>
   </section>
- -->
+ 
 
 <footer>
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <p><i class="fa fa-copyright"></i> Copyright  <?php echo date('Y', time()); ?>
-          by <a href="https://benjaminlouie.com/websolutions"  target="_parent">BL Web Solutions</a></p>
+          by <a href="mailto:<?=$adminEmail?>"  target="_parent">BL Web Solutions</a></p>
         </div>
       </div>
     </div>

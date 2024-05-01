@@ -1508,6 +1508,10 @@ section.contact form {
     width: 100%;
 }
 
+section.contact p {
+  color: #fff;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 767px) {  
   section.contact form {
