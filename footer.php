@@ -6,6 +6,15 @@ if($_POST['name']) {
   $msg = 'Thank you for contacting us. We will get in touch with you shortly.';
 
   //send mail to admin
+  $to      = $adminEmail;
+  $subject = 'the subject';
+  $message = 'hello';
+  $headers = 'From: '.$adminEmail . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+  mail($to, $subject, $message, $headers);
+
 
 }
 
