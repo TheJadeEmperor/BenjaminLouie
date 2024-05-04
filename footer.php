@@ -2,20 +2,43 @@
 
 $adminEmail = 'kaiba.corporation.llc@gmail.com';
 
-if($_POST['name']) {
-  $msg = 'Thank you for contacting us. We will get in touch with you shortly.';
+if($_POST['message']) {
+	$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
+	
+  $message = $_POST['message'];
+  $name = $_POST['name']; 
+  $phone = $_POST['phone'];
+  $email = $_POST['email'];
+	
+  $_POST['noSpam'] = 'All Lives Matter';
 
-  //send mail to admin
-  $to      = $adminEmail;
-  $subject = 'the subject';
-  $message = 'hello';
-  $headers = 'From: '.$adminEmail . "\r\n" .
-    'Reply-To: webmaster@example.com' . "\r\n" .
-    'X-Mailer: PHP/' . phpversion();
+	$answerArray = array('All Lives Matter', 'all lives matter');
+	
+	
+	if(!in_array($_POST['noSpam'], $answerArray)) {
+		$error .= '<br />You answered the anti-spam question wrong!';
+	}
 
-  mail($to, $subject, $message, $headers);
-
-
+	
+	if(!$error) {
+		$headers = "From: ".$adminEmail."\n";
+		$headers .= "Content-type: text/html;";
+		$emailSubject = "BL Web Solutions: Your Message Was Received";
+		$emailContent = "<p>You have sent a message to BL Web Solutions. The contents
+		of the message are the following:</p>
+		
+		<p>Full Name: ".$name."<br />
+		Email: ".$email."<br />
+		Phone: ". $phone."<br />
+		Message: <br />".$message."</p>";
+		 
+		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
+			$error = 'Message sent! You will receive a confirmation email shortly.'; 
+		} 
+		else {
+			$error = 'Error: message not sent! Please inform the administrator: '.$adminEmail;
+		}
+	}
 }
 
 ?>
@@ -35,7 +58,7 @@ if($_POST['name']) {
             <div class="row">
               <div class="col-md-12">
                   
-                <p><?=$msg ?></p>
+                <p><?=$error ?></p>
                    
               </div>
               <div class="col-md-6">
@@ -60,7 +83,7 @@ if($_POST['name']) {
               </div>
               <div class="col-md-12">
                 <fieldset>
-                  <button type="submit" id="form-submit" class="button">Send Message Now</button>
+                  <button type="submit" class="button">Send Message Now</button>
                 </fieldset>
               </div>
             </div>
