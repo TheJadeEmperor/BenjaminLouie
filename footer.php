@@ -22,12 +22,8 @@ if($_POST['message']) {
 	
 	if(!$error) {
     $headers  = "From: BL Web Solutions <".$adminEmail.">\n";
-    $headers .= "X-Sender: BL Web Solutions <".$adminEmail.">\n";
-    $headers .= 'X-Mailer: PHP/' . phpversion();
-    $headers .= "X-Priority: 1\n"; // Urgent message!
-    $headers .= "Return-Path: ".$adminEmail."\n"; // Return path for errors
-    $headers .= "MIME-Version: 1.0\r\n";
     $headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+
 		$emailSubject = "BL Web Solutions: Your Message Was Received";
 		$emailContent = "<p>You have sent a message to BL Web Solutions. The contents
 		of the message are the following:</p>
