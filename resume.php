@@ -617,5 +617,5 @@ and save the meetings to the database
 
   </section>
 <?php 
-include('footer.html');
+include('footer.php');
 ?>

@@ -952,8 +952,7 @@ section.video .left-content span {
 
 section.video .left-content h4 {
     margin-top: 20px;
-    font-size: 30px;
-    color: #fff;
+    font-size: 30px; 
     font-weight: 800;
     letter-spacing: 0.5px;
     line-height: 40px;
@@ -1564,7 +1563,7 @@ section.contact form::placeholder { color: #fff }
 section.contact form textarea::placeholder { color: #fff; }
 section.contact form textarea::placeholder { color: #fff; }
 
-section.contact form button {
+section button {
     background-color: #f5a425;
     color: #fff;
     font-size: 13px;
@@ -1576,6 +1575,10 @@ section.contact form button {
     outline: none;
     box-shadow: none;
     border: none;
+}
+
+section button:hover {
+  background-color: #3CF;
 }
 
 /* Footer */
@@ -1595,10 +1598,12 @@ footer p {
     letter-spacing: 0.5px;
 }
 
-footer p a,
-footer p a:hover {
+footer p a {
     color: #f5a425;
 }
+footer p a:hover {
+  color: #3CF;
+} 
 
 @media screen and (max-width: 992px) {
   .features { background-color: #0c1228; }

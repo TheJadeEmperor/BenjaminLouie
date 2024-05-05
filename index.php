@@ -115,8 +115,9 @@
 
       <div class="video-overlay header-text">
           <div class="caption">
-              <h6>By Benjamin Louie</h6>
-              <h2><em>Portfolio</em> of BL Web Solutions</h2>
+            <h6>Have a Business Idea?</h6> 
+            <h2>Get <em>Your Website</em> Up and Running Quickly</h2>
+
               <div class="main-button">
                   <div class="scroll-to-section"><a href="#why_us">Discover more</a></div>
               </div>
@@ -147,14 +148,14 @@
           <div class="features-post second-features">
             <div class="features-content">
               <div class="content-show">
-                <h4><i class="fa fa-graduation-cap"></i>Maintenance</h4>
+                <h4><i class="fa fa-graduation-cap"></i>Already have a website?</h4>
               </div>
               <div class="content-hide">
-                <p>If you already have a website and need updates, we have solutions for you as well. Whether it is a one time update or regular updates, we have a package that can fit your needs.</p>
+                <p>If you need updates, we have solutions for you. Whether it is a one time update or regular updates, we have a package that can fit your needs.</p>
 
-                <p>Did your previous web designer abandon your website? We can take over where they left off.</p>
+                <p>Did your previous web designer <em>abandon</em> your website? We can take over where they left off.</p>
 
-                <p class="hidden-sm">If you already have a website and need updates, we have solutions for you as well. Whether it is a one time update or regular updates, we have a package that can fit your needs.<br /><br />
+                <p class="hidden-sm">If you need updates, we have solutions for you. Whether it is a one time update or regular updates, we have a package that can fit your needs.<br /><br />
                 Did your previous web designer abandon your website? We can take over where they left off.</p>
 
                 <div class="scroll-to-section"><a href="#why_us">Details</a></div>
@@ -192,7 +193,7 @@
           <div id='tabs'>
             <ul>
               <li><a href='#tabs-1'>Need a Website?</a></li>
-              <li><a href='#tabs-2'>Need Website Updates?</a></li>
+              <li><a href='#tabs-2'>Need Updates?</a></li>
               <li><a href='#tabs-3'>We Provide Web Solutions</a></li>
             </ul>
             <section class='tabs-content'>
@@ -202,8 +203,8 @@
                     <img src="assets/images/website1.jpg" alt="website1">
                   </div>
                   <div class="col-md-6">
-                    <h4>Need a website?</h4>
-                    <p>If you don't have a website, then now is the perfect time to get one so you can have visibility on the web - every day that you don't have a web presence, you are missing out on lots of traffic, and that means money!</p>
+                    <h4>Have a business idea?</h4>
+                    <p>We can turn your business idea into a website that can convert viewers into buyers. If you don't have a web presence, then now is the perfect time to have visibility on the web - every day that you don't have a web presence, you are missing out on lots of traffic, and that means money!</p>
                   </div>
                 </div>
               </article>
@@ -214,7 +215,7 @@
                   </div>
                   <div class="col-md-6">
                     <h4>Need Website Updates?</h4>
-                    <p>Did you hire a web designer but he or she did not complete the project for whatever reason? Did you outsource a project overseas but due to communciation barriers, cannot complete the project and you're left hanging? Then this solution is for you. We will pick up where the other designer left off and complete the project for you.</p>
+                    <p>Did your web designer leave the website incomplete? Did you outsource a project overseas but due to communciation barriers, cannot complete the project and you're left hanging? Then this solution is for you. We can pick up where the other designer left off and complete the project for you.</p>
                   </div>
                 </div>
               </article>
@@ -225,7 +226,7 @@
                   </div>
                   <div class="col-md-6">
                     <h4>We Provide Web Solutions</h4>
-                    <p>We don't just provide websites, we provide web solutions at affordable rates. That means you can complete your project on time and still keep your budget!</p>
+                    <p>We don't just provide websites, we provide what your business needs, such as live streaming integrations and paypment processors. Whether you are a small business owner, radio host, internet marketer, we have the solution for you!</p>
                   </div>
                 </div>
               </article>
@@ -324,11 +325,73 @@
           </div>';
         }
         ?>
-   
+
         </div>
       </div>
     </div>
   </section>
+
+  <section class="section video" data-section="port_highlight">
+  <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-heading">
+            <h2>Portfolio Highlights</h2>
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>5GRadio1</span>
+            <h4><em>Radio Host</em> needed an internet live stream </h4>
+            <p>A radio host needed a way for his audience to listen to his programs  that were streaming 24/7. We used RadioKing as the platform and integrated a "Listen Live" button where viewers can click on it and listen to the host's program. </p>
+            <p>in addition, the client wanted to host the domain outside of Godaddy. We migrated the domain to another webhost in no time at all. </p>
+            
+            <a rel="nofollow" href="https://5gradio1.com" target="_BLANK" ><button>Visit Live Site </button></a>
+     
+         
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+
+            <a href="images/portfolio/5gradio1.jpg"><img src="images/portfolio/5gradio1_thumb.jpg" target="_BLANK" /></a>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="section video" data-section="port_highlight">
+  <div class="container-fluid">
+      <div class="row">
+        
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            
+          <a href="images/portfolio/scam_susan.jpg"><img src="images/portfolio/scam_susan_thumb.jpg" target="_BLANK" /></a>
+ 
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+
+            <span>Smear campaign</span>
+            <h4><em>A Politician</em> needed to smear her opponent </h4>
+            <p>A plotician running for office needed voters to know the truth about her opponent and sent us the facts and from those tidbits of informaion we turned it into a website.</p>
+            <p>We can start your campaign right away that won't break the bank </p>
+            
+            <a rel="nofollow" href="https://susanzhuanglies.com" target="_BLANK" ><button>Visit Live Site </button></a>
+     
+  
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
 
 <?php 
 include('footer.php');
