@@ -104,7 +104,8 @@ Message: ".$message."";
       <div class="row">
         <div class="col-md-12">
           <p><i class="fa fa-copyright"></i> Copyright  <?php echo date('Y', time()); ?>
-          by <a href="mailto:<?=$adminEmail?>"  target="_parent">BL Web Solutions</a></p>
+          by <a href="mailto:<?=$adminEmail?>" target="_parent">BL Web Solutions</a>
+          <br /><a href="sms:3473894994" target="_parent">(347) 389-4994</a></p>
         </div>
       </div>
     </div>
