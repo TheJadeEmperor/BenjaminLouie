@@ -25,12 +25,12 @@ if($_POST['message']) {
 
 		$emailSubject = "BL Web Solutions: Your Message Was Received";
 		$emailContent = "You have sent a message to BL Web Solutions. The contents
-		of the message are the following:
+of the message are the following:
 		
-		Full Name: ".$name."
-		Email: ".$email."
-		Phone: ". $phone."
-		Message: ".$message."";
+Full Name: ".$name."
+Email: ".$email."
+Phone: ". $phone."
+Message: ".$message."";
 		 
 		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
 			$error = 'Message sent! You will receive a confirmation email shortly.'; 
