@@ -21,17 +21,16 @@ if($_POST['message']) {
 
 	
 	if(!$error) {
-    $headers  = "From: BL Web Solutions <".$adminEmail.">\n";
-    $headers .= "Content-Type: text/html; charset=iso-8859-1\n";
+    $headers = "From: ".$adminEmail."\n"; 
 
 		$emailSubject = "BL Web Solutions: Your Message Was Received";
-		$emailContent = "<p>You have sent a message to BL Web Solutions. The contents
-		of the message are the following:</p>
+		$emailContent = "You have sent a message to BL Web Solutions. The contents
+		of the message are the following:
 		
-		<p>Full Name: ".$name."<br />
-		Email: ".$email."<br />
-		Phone: ". $phone."<br />
-		Message: <br />".$message."</p>";
+		Full Name: ".$name."
+		Email: ".$email."
+		Phone: ". $phone."
+		Message: ".$message."";
 		 
 		if(@mail($email.','.$adminEmail, $emailSubject, $emailContent, $headers)) { 
 			$error = 'Message sent! You will receive a confirmation email shortly.'; 
