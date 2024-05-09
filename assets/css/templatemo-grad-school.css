@@ -940,39 +940,39 @@ section.video {
     padding: 120px 0px;
 }
 
-section.video .left-content {
-  color: #fff;
-}
+  section.video .left-content {
+    color: #fff;
+  }
 
-section.video .left-content span {
-  text-transform: uppercase;
-  font-size: 14px;
-  letter-spacing: 0.5px;
-}
-
-section.video .left-content h4 {
-    margin-top: 20px;
-    font-size: 30px; 
-    font-weight: 800;
+  section.video .left-content span {
+    text-transform: uppercase;
+    font-size: 14px;
     letter-spacing: 0.5px;
-    line-height: 40px;
-    margin-bottom: 20px;
-}
-section.video em {
-    font-style: normal;
-    color: #f5a425;
-}
+  }
 
-section.video .left-content .main-button {
-  margin-top: 30px;
-}
+  section.video .left-content h4 {
+      margin-top: 20px;
+      font-size: 30px; 
+      font-weight: 800;
+      letter-spacing: 0.5px;
+      line-height: 40px;
+      margin-bottom: 20px;
+  }
+  section.video em {
+      font-style: normal;
+      color: #f5a425;
+  }
 
-.video-item {
-  position: relative;
-  width: 100%;
-  max-width: 600px;
-  margin: 0px auto 0;
-}
+  section.video .left-content .main-button {
+    margin-top: 30px;
+  }
+
+  .video-item {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: 0px auto 0;
+  }
 
 @media screen and (max-width: 767px) {
 
@@ -983,6 +983,10 @@ section.video .left-content .main-button {
   section.video .first-item .first-content h4,
   section.video .second-item .second-content h4 {
     text-align: center;
+  }
+
+  section.video .left-content img {
+    max-width: 300px;
   }
 
 }

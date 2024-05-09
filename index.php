@@ -95,6 +95,7 @@
             <li><a href="#port_personal">Personal</a></li>
             <li><a href="#port_pro">Professional</a></li>
             <li><a href="#port_client">Client</a></li>
+            <li><a href="#port_highlight">Highlights</a></li>
           </ul>
         </li>
         <li><a href="#why_us">Why Us</a></li>
@@ -344,11 +345,10 @@
             <span>5GRadio1</span>
             <h4><em>Radio Host</em> needed an internet live stream </h4>
             <p>A radio host needed a way for his audience to listen to his programs  that were streaming 24/7. We used RadioKing as the platform and integrated a "Listen Live" button where viewers can click on it and listen to the host's program. </p>
-            <p>in addition, the client wanted to host the domain outside of Godaddy. We migrated the domain to another webhost in no time at all. </p>
+            <p>In addition, the client wanted to host the domain outside of Godaddy. We migrated the domain to another webhost in no time at all. </p>
             
             <a rel="nofollow" href="https://5gradio1.com" target="_BLANK" ><button>Visit Live Site </button></a>
      
-         
           </div>
         </div>
         <div class="col-md-6 align-self-center">
@@ -363,7 +363,7 @@
 
   </section>
 
-  <section class="section video" data-section="port_highlight">
+  <section class="section video">
   <div class="container-fluid">
       <div class="row">
         
@@ -379,12 +379,11 @@
 
             <span>Political Campaign</span>
             <h4><em>A Politician</em> needed to smear her opponent </h4>
-            <p>A plotician running for office needed voters to know the truth about her opponent and sent us the facts and from those tidbits of informaion we turned it into a website.</p>
+            <p>A politicin running for office needed voters to know the truth about her opponent and sent us the facts and from those tidbits of informaion we turned it into a website.</p>
             <p>We can start your campaign right away that won't break the bank </p>
             
             <a rel="nofollow" href="https://susanzhuanglies.com" target="_BLANK" ><button>Visit Live Site </button></a>
      
-  
           </div>
         </div>
       </div>
@@ -392,6 +391,30 @@
 
   </section>
 
+
+  <section class="section video">
+  <div class="container-fluid">
+      <div class="row">
+       
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+            <span>World Wide Video</span>
+            <h4>A<em> small business owner</em> needed to sell cameras</h4>
+            <p>We set up an online store that displays the owner's video cameras, as well as a payment system linked with Paypal. </p>
+         
+          </div>
+        </div>
+        <div class="col-md-6 align-self-center">
+          <div class="left-content">
+
+            <a href="images/portfolio/wwv.jpg"><img src="images/portfolio/wwv.jpg" target="_BLANK" /></a>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 <?php 
 include('footer.php');
