@@ -986,7 +986,8 @@ section.video {
   }
 
   section.video .left-content img {
-    max-width: 300px;
+    max-width: 90%;
+    height: auto;
   }
 
 }
