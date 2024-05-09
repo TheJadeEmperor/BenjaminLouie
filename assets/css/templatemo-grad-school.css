@@ -937,20 +937,21 @@ section.video {
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #172238;
+    color: #fff;
     padding: 120px 0px;
 }
 
-  section.video .left-content {
-    color: #fff;
+  section.video .center {
+    text-align: center;
   }
 
-  section.video .left-content span {
+  section.video span {
     text-transform: uppercase;
     font-size: 14px;
     letter-spacing: 0.5px;
   }
 
-  section.video .left-content h4 {
+  section.video h4 {
       margin-top: 20px;
       font-size: 30px; 
       font-weight: 800;
@@ -978,11 +979,6 @@ section.video {
 
   section.video .left-content {
     margin-bottom: 45px;
-  }
-
-  section.video .first-item .first-content h4,
-  section.video .second-item .second-content h4 {
-    text-align: center;
   }
 
   section.video .left-content img {

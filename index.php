@@ -341,7 +341,7 @@
           </div>
         </div>
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight">
             <span>5GRadio1</span>
             <h4><em>Radio Host</em> needed an internet live stream </h4>
             <p>A radio host needed a way for his audience to listen to his programs  that were streaming 24/7. We used RadioKing as the platform and integrated a "Listen Live" button where viewers can click on it and listen to the host's program. </p>
@@ -352,7 +352,7 @@
           </div>
         </div>
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight">
 
             <a href="images/portfolio/5gradio1.jpg"><img src="images/portfolio/5gradio1_thumb.jpg" target="_BLANK" /></a>
  
@@ -364,18 +364,18 @@
   </section>
 
   <section class="section video">
-  <div class="container-fluid">
+    <div class="container-fluid">
       <div class="row">
         
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight center">
             
           <a href="images/portfolio/scam_susan.jpg"><img src="images/portfolio/scam_susan_thumb.jpg" target="_BLANK" /></a>
  
           </div>
         </div>
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight">
 
             <span>Political Campaign</span>
             <h4><em>A Politician</em> needed to smear her opponent </h4>
@@ -397,7 +397,7 @@
       <div class="row">
        
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight">
             <span>World Wide Video</span>
             <h4>A<em> small business owner</em> needed to sell cameras</h4>
             <p>We set up an online store that displays the owner's video cameras, as well as a payment system linked with Paypal. </p>
@@ -405,7 +405,7 @@
           </div>
         </div>
         <div class="col-md-6 align-self-center">
-          <div class="left-content">
+          <div class="highlight">
 
             <a href="images/portfolio/wwv.jpg"><img src="images/portfolio/wwv.jpg" target="_BLANK" /></a>
  
