@@ -379,7 +379,7 @@
 
             <span>Political Campaign</span>
             <h4><em>A Politician</em> needed to smear her opponent </h4>
-            <p>A politicin running for office needed voters to know the truth about her opponent and sent us the facts and from those tidbits of informaion we turned it into a website.</p>
+            <p>A politician running for office needed voters to know the truth about her opponent and sent us the facts and from those tidbits of informaion we turned it into a website.</p>
             <p>We can start your campaign right away that won't break the bank </p>
             
             <a rel="nofollow" href="https://susanzhuanglies.com" target="_BLANK" ><button>Visit Live Site </button></a>
