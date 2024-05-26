@@ -98,7 +98,7 @@
             <li><a href="#port_highlight">Highlights</a></li>
           </ul>
         </li>
-        <li><a href="#why_us">Why Us</a></li>
+        <li><a href="#why_us">Services</a></li>
        
         <li><a href="resume.php" class="external">Resume</a></li>
 
@@ -126,7 +126,6 @@
       </div>
   </section>
   <!-- ***** Main Banner Area End ***** -->
-
 
   <section class="features">
     <div class="container">
@@ -187,21 +186,22 @@
       <div class="row">
         <div class="col-md-12">
           <div class="section-heading">
-            <h2>Why Choose Us?</h2>
+            <h2>Services</h2>
           </div>
         </div>
         <div class="col-md-12">
           <div id='tabs'>
             <ul>
-              <li><a href='#tabs-1'>Need a Website?</a></li>
-              <li><a href='#tabs-2'>Need Updates?</a></li>
-              <li><a href='#tabs-3'>We Provide Web Solutions</a></li>
+              <li><a href='#tabs-1'>We Provide Web Solutions</a></li>
+              <li><a href='#tabs-2'>Writing Services</a></li>
+              <li><a href='#tabs-3'>Payment Portals</a></li>
+              <li><a href='#tabs-3'>Payment Portals</a></li>
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/website1.jpg" alt="website1">
+                    <img src="images/services1.jpg" alt="website1">
                   </div>
                   <div class="col-md-6">
                     <h4>Have a business idea?</h4>
@@ -212,22 +212,26 @@
               <article id='tabs-2'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/website2.jpg" alt="website2">
+                    <img src="images/services2.jpg" alt="website2">
                   </div>
                   <div class="col-md-6">
-                    <h4>Need Website Updates?</h4>
-                    <p>Did your web designer leave the website incomplete? Did you outsource a project overseas but due to communciation barriers, cannot complete the project and you're left hanging? Then this solution is for you. We can pick up where the other designer left off and complete the project for you.</p>
+                    <h4>Writing Services</h4>
+                    <p>Do you need a writer for your blog or social media platforms? We have written blogs, social media posts and novels. Whether it's regular writing or a one time thing, we have the solution for you.</p>
+
+                    <p>You can see our works at the smashwords book store:
+                      <a href="https://www.smashwords.com/profile/view/TheJadeEmperor" target="_BLANK">https://www.smashwords.com/profile/view/TheJadeEmperor</a>
+                    </p>
                   </div>
                 </div>
               </article>
               <article id='tabs-3'>
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="assets/images/website3.jpg" alt="website3">
+                    <img src="images/services3.jpg" alt="website3">
                   </div>
                   <div class="col-md-6">
-                    <h4>We Provide Web Solutions</h4>
-                    <p>We don't just provide websites, we provide what your business needs, such as live streaming integrations and paypment processors. Whether you are a small business owner, radio host, internet marketer, we have the solution for you!</p>
+                    <h4>Payment Portals</h4>
+                    <p>We have done projects with the most popular payment portals such as Paypal & Stripe & various others. Some of our clients needed to take donations or accept monhtly payments for subscriptions. Whether it is a simple donate button or other payment options, we have the solution for you.</p>
                   </div>
                 </div>
               </article>
