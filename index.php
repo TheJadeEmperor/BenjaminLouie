@@ -195,7 +195,6 @@
               <li><a href='#tabs-1'>We Provide Web Solutions</a></li>
               <li><a href='#tabs-2'>Writing Services</a></li>
               <li><a href='#tabs-3'>Payment Portals</a></li>
-              <li><a href='#tabs-3'>Payment Portals</a></li>
             </ul>
             <section class='tabs-content'>
               <article id='tabs-1'>
