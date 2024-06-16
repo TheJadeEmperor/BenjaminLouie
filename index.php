@@ -81,8 +81,8 @@
 
 ?>
 
- <!--header-->
- <header class="main-header clearfix" role="header">
+<!--header-->
+<header class="main-header clearfix" role="header">
     <div class="logo">
       <a href="#"><em>BL</em> Web Solutions</a>
     </div>
@@ -106,7 +106,7 @@
        
       </ul>
     </nav>
-  </header>
+</header>
 
   <!-- ***** Main Banner Area Start ***** -->
   <section class="section main-banner" id="top" data-section="section1">

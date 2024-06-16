@@ -114,14 +114,15 @@ function gallery_function($atts) {
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+
+    <title>BL Web Solutions Portfolio | Web Design | eCommerce | Wordpress</title>
+    
+    <meta name="description" content="BL Web Solutions Portfolio | Web Design | eCommerce | Wordpress">
     <meta name="author" content="BL Web Solutions">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
 
-    <title>BL Websolutions Portfolio</title>
-    
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
