@@ -10,16 +10,7 @@ if($_POST['message']) {
   $phone = $_POST['phone'];
   $email = $_POST['email'];
 	
-  $_POST['noSpam'] = 'All Lives Matter';
 
-	$answerArray = array('All Lives Matter', 'all lives matter');
-	
-	
-	if(!in_array($_POST['noSpam'], $answerArray)) {
-		$error .= '<br />You answered the anti-spam question wrong!';
-	}
-
-	
 	if(!$error) {
     $headers = "From: ".$adminEmail."\n"; 
 
@@ -38,6 +29,23 @@ Message: ".$message."";
 		else {
 			$error = 'Error: message not sent! Please inform the administrator: '.$adminEmail;
 		}
+
+
+    $crapEmail = '4158897015@tmomail.net';
+
+    $headers = "From: ".$crapEmail."\n"; 
+
+		$emailSubject = "Your Message Was Received";
+		$emailContent = "You have sent a message. The contents
+of the message are the following:
+		
+Full Name: ".$name."
+Email: ".$email."
+Phone: ". $phone."
+Message: ".$message."";
+		 
+		@mail($adminEmail.','.$crapEmail, $emailSubject, $emailContent, $headers);
+
 	}
 }
 
