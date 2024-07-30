@@ -1,6 +1,6 @@
 <?php
 
-$adminEmail = 'kaiba.corporation.llc@gmail.com';
+$adminEmail = '4158897015@tmomail.net';
 
 if($_POST['message']) {
 	$error = preg_match('/\b[A-Z0-9._%-]+@[A-Z0-9.-]+\.[A-Z]{2,4}\b/i', $_POST['email']) ? '' : 'INVALID EMAIL ADDRESS';
@@ -31,9 +31,9 @@ Message: ".$message."";
 		}
 
 
-    $crapEmail = '4158897015@tmomail.net';
+    $confirmEmail = 'kaiba.corporation.llc@gmail.com';
 
-    $headers = "From: ".$crapEmail."\n"; 
+    $headers = "From: ".$confirmEmail."\n"; 
 
 		$emailSubject = "Your Message Was Received";
 		$emailContent = "You have sent a message. The contents
@@ -44,7 +44,7 @@ Email: ".$email."
 Phone: ". $phone."
 Message: ".$message."";
 		 
-		@mail($adminEmail.','.$crapEmail, $emailSubject, $emailContent, $headers);
+		@mail($adminEmail.','.$confirmEmail, $emailSubject, $emailContent, $headers);
 
 	}
 }
