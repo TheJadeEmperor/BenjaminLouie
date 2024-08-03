@@ -1,5 +1,6 @@
 <?php
 
+$adminEmail = 'kaiba.corporation.llc@gmail.com';
 $adminEmail = '4158897015@tmomail.net';
 
 if($_POST['message']) {
@@ -16,7 +17,7 @@ if($_POST['message']) {
 
 		$emailSubject = "BL Web Solutions: Your Message Was Received";
 		$emailContent = "You have sent a message to BL Web Solutions. The contents
-of the message are the following:
+of the message are the following: 
 		
 Full Name: ".$name."
 Email: ".$email."
@@ -27,24 +28,8 @@ Message: ".$message."";
 			$error = 'Message sent! You will receive a confirmation email shortly.'; 
 		} 
 		else {
-			$error = 'Error: message not sent! Please inform the administrator: '.$adminEmail;
+			$error = 'Error: message not sent! Please inform the administrator';
 		}
-
-
-    $confirmEmail = 'kaiba.corporation.llc@gmail.com';
-
-    $headers = "From: ".$confirmEmail."\n"; 
-
-		$emailSubject = "Your Message Was Received";
-		$emailContent = "You have sent a message. The contents
-of the message are the following:
-		
-Full Name: ".$name."
-Email: ".$email."
-Phone: ". $phone."
-Message: ".$message."";
-		 
-		@mail($adminEmail.','.$confirmEmail, $emailSubject, $emailContent, $headers);
 
 	}
 }
@@ -91,7 +76,7 @@ Message: ".$message."";
               </div>
               <div class="col-md-12">
                 <fieldset>
-                  <button type="submit" class="button">Send Message Now</button>
+                  <button type="submit" class="button" title="<?=$adminEmail?>">Send Message Now</button>
                 </fieldset>
               </div>
             </div>
